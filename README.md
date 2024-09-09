@@ -1,4 +1,4 @@
-### I used Takuya Matsuyama's portfolio website as a basis for my own - the README below this is from his original repo.
+### I used Takuya Matsuyama's portfolio website as a template - the README below this is from his original repo.
 
 -------------------------------------------------------------------------------------------------------------------------
 
