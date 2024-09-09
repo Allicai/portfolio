@@ -1,3 +1,7 @@
+### I used Takuya Matsuyama's portfolio website as a basis for my own - the README below this is from his original repo.
+
+-------------------------------------------------------------------------------------------------------------------------
+
 # Takuya's Homepage
 
 [https://www.craftz.dog/](https://www.craftz.dog/)
