@@ -110,23 +110,14 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
-                  About
+                  Home
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
-                  Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
-                  Wallpapers
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
+                  Projects
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/Allicai/portfolio"
                 >
                   View Source
                 </MenuItem>
