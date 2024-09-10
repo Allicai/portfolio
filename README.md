@@ -1,4 +1,4 @@
-### I used Takuya Matsuyama's portfolio a template - the README below is the original.
+### I used Takuya Matsuyama's portfolio a template - the README below is his.
 
 -------------------------------------------------------------------------------------------------------------------------
 

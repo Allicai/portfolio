@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Computer Science student @ Northeastern!
+        Hello, I&apos;m a Computer Science student at Northeastern!
       </Box>
 
       <Box display={{ md: 'flex' }}>
