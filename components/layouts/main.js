@@ -19,11 +19,11 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Vinit Patel" />
         <meta name="author" content="Allicai" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/chibi_ico.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Vinit Patel" />
         <meta name="og:title" content="Vinit Patel" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/chibi.jpg" />
+        <meta property="og:image" content="chibi.jpg" />
         <title>Vinit Patel - Homepage</title>
       </Head>
 

@@ -23,9 +23,13 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const rotatingTexts = [
-  "an undergrad computer science student!",
-  "a growing data scientist!",
-  "a budding software engineer!"
+  "an undergraduate student at Northeastern University.",
+  "a creative artist.",
+  "an effective data scientist.",
+  "a passionate sports fan.",
+  "an avid reader.",
+  "a growing software engineer.",
+  "an obsessive learner."
 ]
 
 const Home = () => {
@@ -38,9 +42,9 @@ const Home = () => {
         const nextIndex = (currentIndex + 1) % rotatingTexts.length;
         return rotatingTexts[nextIndex];
       });
-    }, 3000); // Change text every 2 seconds
+    }, 3000); // 1000 = 1 second
 
-    return () => clearInterval(intervalId); // Clear interval on component unmount
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
@@ -54,7 +58,7 @@ const Home = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          I&apos;m {currentText}
+         I am {currentText}
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -96,18 +100,24 @@ const Home = () => {
           </Heading>
           <Paragraph>
             Vinit (Vin) is an undergraduate student based in Boston, MA with a passion 
-            for the constantly growing applications of machine learning. His academic
-            and professional journey have been driven by a deep interest in NLP and data
-            science, and he constantly strives to blend technology with his own creativity.{' '}
-            <Link as={NextLink} href="https://www.youtube.com/devaslife" passHref target="_blank">
-              Dev as Life
-            </Link>
-            &quot; has more than 100k subscribers.
+            for machine learning and a drive to continually expand his skillset.
+            His academic and professional journey is shaped by a deep interest in NLP and software
+            engineering, and he strives to blend technology with his own creativity.
           </Paragraph>
           <Paragraph>
-            He has worked at companies such as Beats by Dre, Mobalytics, and GBCS in roles and teams involving
-            software engineering, data science, and AI/ML. He's currently serving as a software
-            specialist at Forge, a product development lab. 
+            His most recent experience was at Beats by Dre as a Data Analyst, and he currently serves as a programming
+            specialist at Forge, a product development lab that spans both hardware and software.
+          </Paragraph>
+          <Paragraph>
+            In his free time, Vin likes to sketch while enjoying coffee at a local café, 
+            playing soccer or tennis around Northeastern's Carter Field, or capturing Boston through
+            his camera. He's also involved in various clubs and organizations, from the electric racing team to
+            the volunteer team behind the community fridges in Boston.
+          </Paragraph>
+          <Paragraph>
+            His completed projects include various implementations of machine learning, NLP, and object-oriented
+            design, and he is always looking to learn. His latest interest is computer vision,
+            and he's currently working on projects to gain proficiency and work towards real-world applications.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -116,9 +126,7 @@ const Home = () => {
               scroll={false}
               rightIcon={<ChevronRightIcon />}
               colorScheme="teal"
-            >
-              My Projects
-            </Button>
+            >Projects</Button>
           </Box>
         </Section>
 
@@ -136,7 +144,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Software Engineer at AerospaceNU's drone team.
+            Software Engineer in AerospaceNU's drone team.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
@@ -144,11 +152,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Data Analytics & Market Research Extern at Mobalytics.
+            Data Analytics & Market Research at Mobalytics. (Extern)
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Data Analytics Extern at Beats by Dre.
+            Data Analyst at Beats by Dre. (Extern)
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
@@ -177,7 +185,7 @@ const Home = () => {
           <Link href="/images/niagara.jpeg" target="_blank" colorScheme={'teal'}>
           Photography
           </Link>
-          , Drawing, Gaming, Cooking.
+          , Drawing/Design, Gaming.
           </Paragraph>
         </Section>
 
