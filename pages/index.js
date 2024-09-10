@@ -16,7 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -81,7 +81,7 @@ const Home = () => {
               overflow="hidden"
             >
               <Image
-                src="/chibi.jpg"
+                src="/vin.jpeg"
                 alt="Profile image"
                 width="100"
                 height="100"
@@ -161,13 +161,29 @@ const Home = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Tennis, Soccer, Drawing, Reading, Gaming, Cooking, and Cats!
+            {' '}
+          <Link href="/images/nyo.png" target="_blank" colorScheme={'teal'}>
+            Tennis
+          </Link> 
+          , {' '}
+          <Link href="/images/soccer.png" target="_blank" colorScheme={'teal'}>
+          Soccer
+          </Link>
+          , {' '}
+          <Link href="https://www.goodreads.com/book/show/58416952-the-will-of-the-many" target="_blank" colorScheme={'teal'}>
+          Reading
+          </Link>
+          , {' '}
+          <Link href="/images/niagara.jpeg" target="_blank" colorScheme={'teal'}>
+          Photography
+          </Link>
+          , Drawing, Gaming, Cooking.
           </Paragraph>
         </Section>
 
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Currently on Repeat:
+          Current Song Obsession :
         </Heading>
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
@@ -199,35 +215,24 @@ const Home = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/inkdrop_app" target="_blank">
+              <Link href="https://www.linkedin.com/in/vinit-patel-873514204/" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<IoLogoTwitter />}
+                  colorScheme={'teal'}
+                  leftIcon={<IoLogoLinkedin />}
                 >
-                  @inkdrop_app (English)
+                  Vinit Patel
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/craftzdog" target="_blank">
+              <Link href="mailto:vinitp0310@gmail.com" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<IoLogoTwitter />}
+                  leftIcon={<EmailIcon />}
                 >
-                  @craftzdog (日本語)
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://instagram.com/craftzdog" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<IoLogoInstagram />}
-                >
-                  @craftzdog
+                  vinitp0310@gmail.com
                 </Button>
               </Link>
             </ListItem>

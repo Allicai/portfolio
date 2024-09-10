@@ -5,7 +5,7 @@ const Footer = () => {
     <Box align="center" opacity={0.6} fontSize="sm">
       <br></br>
       This website is built based on{' '}
-      <Link href="https://www.craftz.dog/" target="_blank" color="green.300">
+      <Link href="https://www.craftz.dog/" target="_blank" colorScheme="teal">
         Takuya Matsuyama&apos;s website
       </Link>
       .
