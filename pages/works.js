@@ -33,7 +33,7 @@ const Works = () => (
         <Section>
           <WorkGridItem id="emotion" title="NLP Model Evaluation" thumbnail={thumbML}>
             Comparing Logistic Regression, LSTM, and DistilBERT transformer models
-            on an emotional classification task based around a Kaggle dataset.
+            on a sentiment analysis classification task based around a Kaggle dataset.
           </WorkGridItem>
         </Section>
 
