@@ -16,7 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -28,7 +28,7 @@ const rotatingTexts = [
   "a passionate sports fan!",
   "an avid reader!",
   "a growing software engineer.",
-  "an obsessive learner!"
+  "a self-motivated learner!"
 ]
 
 const Home = () => {
@@ -100,18 +100,18 @@ const Home = () => {
             engineering, and he strives to blend technology with his own creativity.
           </Paragraph>
           <Paragraph>
-            His most recent experience was as a data analytics extern at Mobalytics, and he currently serves as a programming
-            specialist at Forge, a product development lab that spans both hardware and software.
+            His most recent experience was as a data analytics extern at Beats by Dre, and he currently serves as a software and hardware programming
+            specialist at Forge, Northeastern's product dev lab.
           </Paragraph>
           <Paragraph>
             In his free time, Vin likes to sketch while enjoying coffee at a local café, 
-            playing soccer or tennis around Northeastern's Carter Field, or capturing Boston through
-            his camera. He's also involved in various clubs and organizations, from the electric racing team to
-            the volunteer team behind the community fridges in Boston.
+            play soccer or tennis around Northeastern's Carter Field, and explore Massachusetts with his friends. 
+            He's also involved in various clubs and organizations, from the space drone team to
+            the volunteers behind the community fridges, as well as mentoring programs.
           </Paragraph>
           <Paragraph>
-            His completed projects include various implementations of machine learning, NLP, and object-oriented
-            design, and he is always looking to learn. His latest interest is computer vision,
+            His completed projects include various implementations of NLP, machine learning, algorithms, and object-oriented
+            design, and he is always looking to learn and apply himself. His latest interest is computer vision,
             and he's currently working on projects to gain proficiency and work towards real-world applications.
           </Paragraph>
           <Box align="center" my={4}>
@@ -131,15 +131,51 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2003</BioYear>
-            Born in New York.
+            Born in NY, moved to India to live with relatives for 5 years.
+          </BioSection>
+          <BioSection>
+            <BioYear>2008</BioYear>
+            Returned to NY after living between India and Australia.
+          </BioSection>
+          <BioSection>
+            <BioYear>2014</BioYear>
+            Began playing tennis seriously at a local competitive club.
+          </BioSection>
+          <BioSection>
+            <BioYear>2016</BioYear>
+            Won first official USTA tennis tournament.
+          </BioSection>
+          <BioSection>
+            <BioYear>2019</BioYear>
+            Completed 4 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>.
+          </BioSection>
+          <BioSection>
+            <BioYear>2020</BioYear>
+            Took up drawing and design during COVID.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Began attending Northeastern University.
+            Graduated high school and began attending Northeastern.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Software Engineer in AerospaceNU's drone team.
+            Software Engineer for AerospaceNU's drone team.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Ran a service drawing <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>profile photos</Link> for students at NU.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Helped a friend establish her <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>NU student clothing store</Link>.
+            </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Began designing clothing and working on a personal brand.
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Learned video editing and started creating short-form content with the aim of creating YouTube videos.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
@@ -149,13 +185,13 @@ const Home = () => {
             <BioYear>2024</BioYear>
             Data Analytics & Market Research Extern at Mobalytics.
           </BioSection>
-          {/* <BioSection>
+           <BioSection>
             <BioYear>2024</BioYear>
             Data Analyst Extern at Beats by Dre.
-          </BioSection> */}
+          </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            Software Specialist at Forge, a product development club.
+            Software Specialist at Forge, Northeastern's product development lab.
           </BioSection>
         </Section>
 
