@@ -25,7 +25,7 @@ const Projects = () => (
       </Center>
       <P>
         Collage uses the MVC (model-view-controller) design pattern. This image-processing program is based around a
-        foundational "pixel" class, and its functions apply to various scopes, such as
+        foundational &quot;pixel&quot; class, and its functions apply to various scopes, such as
         images, layers, and so on. There are features such as cropping, various filters, brighten and darken tools, blurring effects,
         layer creation and management, and more. The program was extensively tested using JUnit, and has a simple GUI for ease of use.
       </P>

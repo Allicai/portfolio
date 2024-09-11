@@ -59,7 +59,7 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="forge"
-            title="'Vini' Stark"
+            title="&apos;Vini&apos; Stark"
             thumbnail={thumbStark}
           >
             [CURRENTLY IN PROGRESS] <br /> Set of scripts using cv2 and pyautogui to get me one step closer to
@@ -74,7 +74,7 @@ const Works = () => (
             thumbnail={thumbRPS}
           >
             Rock-paper-scissors using OpenCV, with a 
-            "cheat mode" where the computer waits momentarily to choose the winning hand.
+            &quot;cheat mode&quot; where the computer waits momentarily to choose the winning hand.
           </WorkGridItem>
         </Section>
 
