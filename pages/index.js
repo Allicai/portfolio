@@ -25,7 +25,6 @@ import { useState, useEffect } from 'react'
 const rotatingTexts = [
   "an undergraduate student at Northeastern University.",
   "a creative artist.",
-  "an effective data scientist.",
   "a passionate sports fan.",
   "an avid reader.",
   "a growing software engineer.",

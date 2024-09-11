@@ -3,6 +3,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbML from '../public/images/works/distilbert.png'
+import thumbPoker from '../public/images/works/poker.png'
+import thumbSnake from '../public/images/works/snake.png'
+import thumbStark from '../public/images/works/vini_stark.png'
+import thumbRPS from '../public/images/works/rps.png'
+import thumbCollage from '../public/images/works/mvc_collage.png'
+
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 // import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
@@ -18,71 +25,72 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Personal Projects
+        Projects
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="fufupot" title="Machine Learning Model Eval." thumbnail={}>
-            A comparison of Logistic Regression, LSTM, and DistilBERT transformer models
+          <WorkGridItem id="emotion" title="ML Model Evaluation" thumbnail={thumbML}>
+            Comparing Logistic Regression, LSTM, and DistilBERT transformer models
             on an emotional classification task based around a Kaggle dataset.
           </WorkGridItem>
         </Section>
+
         <Section>
-          <WorkGridItem id="roboump" title="Collage Image Processor" thumbnail={}>
-            An object-oriented image processing software around a "Pixel" class. Used Java
-            for the implementation, and tested thoroughly with JUnit. Has features such as cropping,
+          <WorkGridItem id="collage" title="Collage Image Processor" thumbnail={thumbCollage}>
+            Imprage processing software in Java with features such as cropping,
             filtering, layer creation and management, etc.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="forge"
-            title="Computer Vision Rock-Paper-Scissors"
-            thumbnail={}
+            id="snake"
+            title="CV Snake Game"
+            thumbnail={thumbSnake}
           >
-            A system focused on preventative care of shoes and clothes before
-            odor stains can occur.
+            An implementation of the classic Snake game using OpenCV and Python to add dimensionality.
+          </WorkGridItem>
+        </Section>
+
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="forge"
+            title="'Vini' Stark"
+            thumbnail={thumbStark}
+          >
+            [CURRENTLY IN PROGRESS] <br /> Set of scripts using cv2 and pyautogui to get me one step closer to
+            my dream of being Tony Stark.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="forge"
-            title="Vini Stark"
-            thumbnail={}
+            id="rps"
+            title="CV Rock-Paper-Scissors"
+            thumbnail={thumbRPS}
           >
-            A system focused on preventative care of shoes and clothes before
-            odor stains can occur.
+            Rock-paper-scissors using OpenCV, with a 
+            "cheat mode" where the computer waits momentarily to choose the winning hand.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="forge"
-            title="Computer Vision Snake Game"
-            thumbnail={}
-          >
-            A system focused on preventative care of shoes and clothes before
-            odor stains can occur.
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="forge"
+            id="poker"
             title="Computer Vision Poker"
-            thumbnail={}
+            thumbnail={thumbPoker}
           >
-            A system focused on preventative care of shoes and clothes before
-            odor stains can occur.
+            [CURRENTLY IN PROGRESS] <br /> Computer vision and OOP in C++, aiming to emphasize
+            real-time game interactions.
           </WorkGridItem>
         </Section>
 
 
       </SimpleGrid>
 
+      {/*
       <Section delay={0.2}>
         <Divider my={6} />
 
@@ -96,8 +104,8 @@ const Works = () => (
           <WorkGridItem id="mbta" thumbnail={notAvailable} title="Swarm Drone Carrier">
             [CURRENTLY IN PROGRESS]
           </WorkGridItem>
-        </Section>
-        {/* <Section delay={0.3}>
+        </Section> 
+        <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
             thumbnail={thumbModeTokyo}
@@ -110,8 +118,8 @@ const Works = () => (
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
             A VR Creative tools for fashion brands
           </WorkGridItem>
-        </Section> */}
-      </SimpleGrid>
+        </Section> 
+      </SimpleGrid> */}
 
       {/* <Section delay={0.4}>
         <Divider my={6} />
