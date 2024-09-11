@@ -147,7 +147,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Completed 4 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>.
+            Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
