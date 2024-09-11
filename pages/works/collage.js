@@ -13,37 +13,31 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Projects = () => (
-  <Layout title="NLP Model Eval.">
+  <Layout title="Collage">
     <Container>
       <Title>
-        NLP Model Evaluation <br />
-        <Badge>Machine Learning</Badge> 
-        <Badge>Neural Nets</Badge>
-        <Badge>Deep-Learning</Badge> 
+        Collage Image Processor
+        <Badge>Java</Badge> 
+        <Badge>Object-Oriented Design</Badge> 
       </Title>
       <Center my={6}>
-        <Image src="/images/works/prep_nlp.png" alt="banner" />
+        <Image src="/images/works/mvc_collage.png" alt="cm" />
       </Center>
       <P>
-        This project was completed under the supervision of NLP experts at Northeastern University.
-        The goal was to compare the performance of three different models on a Kaggle dataset that
-        provided text data and emotional labels.
-      </P>
-      <P>
-        The models used in the experiment were Logistic Regression, LSTM, and a 
-        DistilBERT transformer model. I prepared the data and created training, testing, 
-        and validation dataset. The three models performed well, resulting in accuracies of 87%, 92%, and 93% respectively, with
-        the DistilBERT model showing the most promise (likely due to it's self-attention mechanism).
+        Collage uses the MVC (model-view-controller) design pattern. This image-processing program is based around a
+        foundational "pixel" class, and its functions apply to various scopes, such as
+        images, layers, and so on. There are features such as cropping, various filters, brighten and darken tools, blurring effects,
+        layer creation and management, and more. The program was extensively tested using JUnit, and has a simple GUI for ease of use.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Skills</Meta>
-          <span>PyTorch, Keras, Scikit-learn, TensorFlow, Seaborn, NLTK</span>
+          <span>JUnit, Swing, JFrame, Maven</span>
         </ListItem>
         <ListItem>
           <Meta>Code</Meta>
-          <Link href="https://github.com/Allicai/EmotionClassification">
+          <Link href="https://github.com/Allicai/CollageComplete">
             GitHub Link
           </Link>
         </ListItem> 
@@ -61,7 +55,7 @@ const Projects = () => (
         </ListItem> */}
       </List>
       <Center my={6}>
-        <Image src="/images/works/distilbert.png" alt="cm" />
+        <Image src="/images/works/ood.png" alt="cm" />
       </Center>
     </Container>
   </Layout>
