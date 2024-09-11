@@ -24,11 +24,11 @@ import { useState, useEffect } from 'react'
 
 const rotatingTexts = [
   "an undergraduate student at Northeastern University.",
-  "a creative artist.",
-  "a passionate sports fan.",
-  "an avid reader.",
+  "a creative artist!",
+  "a passionate sports fan!",
+  "an avid reader!",
   "a growing software engineer.",
-  "an obsessive learner."
+  "an obsessive learner!"
 ]
 
 const Home = () => {
@@ -49,49 +49,45 @@ const Home = () => {
   return (
     <Layout>
       <Container>
-        <Box
-          borderRadius="lg"
-          mb={6}
-          p={3}
-          textAlign="center"
-          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-          css={{ backdropFilter: 'blur(10px)' }}
-        >
-         I am {currentText}
-        </Box>
+      <Box
+      borderRadius="lg"
+      mb={6}
+      p={3}
+      textAlign="center"
+      bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      css={{ backdropFilter: 'blur(10px)' }}
+    >
+      I am {currentText}
+    </Box>
 
-        <Box display={{ md: 'flex' }}>
-          <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title">
-              Vinit Patel
-            </Heading>
-            <p>Aspiring SWE ( Artist | Designer | NLP Enthusiast )</p>
-          </Box>
-          <Box
-            flexShrink={0}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
-            textAlign="center"
-          >
-            <Box
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              w="100px"
-              h="100px"
-              display="inline-block"
-              borderRadius="full"
-              overflow="hidden"
-            >
-              <Image
-                src="/vin.jpeg"
-                alt="Profile image"
-                width="100"
-                height="100"
-              />
-            </Box>
-          </Box>
-        </Box>
+    <Box display="flex" flexDirection="column" alignItems="center">
+      {/* Text area above the profile photo */}
+      <Box textAlign="center" mb={4}>
+        <Heading as="h2" variant="page-title">
+          Vinit Patel
+        </Heading>
+        <p>Aspiring SWE | Student | Artist | Designer | NLP Enthusiast </p>
+      </Box>
+
+      {/* Profile photo */}
+      <Box
+        borderColor="pink.500"
+        borderWidth={3}
+        borderStyle="solid"
+        w="140px"
+        h="140px"
+        display="inline-block"
+        borderRadius="full"
+        overflow="hidden"
+      >
+        <Image
+          src="/images/al4.png"
+          alt="Profile image"
+          width="140"
+          height="140"
+        />
+      </Box>
+    </Box>
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
@@ -104,7 +100,7 @@ const Home = () => {
             engineering, and he strives to blend technology with his own creativity.
           </Paragraph>
           <Paragraph>
-            His most recent experience was at Beats by Dre as a Data Analyst, and he currently serves as a programming
+            His most recent experience was as a data analytics extern at Mobalytics, and he currently serves as a programming
             specialist at Forge, a product development lab that spans both hardware and software.
           </Paragraph>
           <Paragraph>
@@ -146,17 +142,17 @@ const Home = () => {
             Software Engineer in AerospaceNU's drone team.
           </BioSection>
           <BioSection>
-            <BioYear>2023</BioYear>
+            <BioYear>2024</BioYear>
             AI Engineering Intern at GBCS.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Data Analytics & Market Research at Mobalytics. (Extern)
+            Data Analytics & Market Research Extern at Mobalytics.
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2024</BioYear>
-            Data Analyst at Beats by Dre. (Extern)
-          </BioSection>
+            Data Analyst Extern at Beats by Dre.
+          </BioSection> */}
           <BioSection>
             <BioYear>Now</BioYear>
             Software Specialist at Forge, a product development club.

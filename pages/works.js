@@ -31,7 +31,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="emotion" title="ML Model Evaluation" thumbnail={thumbML}>
+          <WorkGridItem id="emotion" title="NLP Model Evaluation" thumbnail={thumbML}>
             Comparing Logistic Regression, LSTM, and DistilBERT transformer models
             on an emotional classification task based around a Kaggle dataset.
           </WorkGridItem>
