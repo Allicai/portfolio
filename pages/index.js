@@ -4,7 +4,7 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
+  // SimpleGrid,
   Button,
   List,
   ListItem,
@@ -101,18 +101,18 @@ const Home = () => {
           </Paragraph>
           <Paragraph>
             His most recent experience was as a data analytics extern at Beats by Dre, and he currently serves as a software and hardware programming
-            specialist at Forge, Northeastern's product dev lab.
+            specialist at Forge, Northeastern&apos;s product dev lab.
           </Paragraph>
           <Paragraph>
             In his free time, Vin likes to sketch while enjoying coffee at a local café, 
-            play soccer or tennis around Northeastern's Carter Field, and explore Massachusetts with his friends. 
-            He's also involved in various clubs and organizations, from the space drone team to
+            play soccer or tennis around Northeastern&apos;s Carter Field, and explore Massachusetts with his friends. 
+            He&apos;s also involved in various clubs and organizations, from the space drone team to
             the volunteers behind the community fridges, as well as mentoring programs.
           </Paragraph>
           <Paragraph>
             His completed projects include various implementations of NLP, machine learning, algorithms, and object-oriented
             design, and he is always looking to learn and apply himself. His latest interest is computer vision,
-            and he's currently working on projects to gain proficiency and work towards real-world applications.
+            and he&apos;s currently working on projects to gain proficiency and work towards real-world applications.
           </Paragraph>
           <Box align="center" my={4}>
             <Button

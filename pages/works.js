@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbML from '../public/images/works/distilbert.png'
 import thumbPoker from '../public/images/works/poker.png'
-import thumbSnake from '../public/images/works/snake.png'
+// import thumbSnake from '../public/images/works/snake.png'
 import thumbStark from '../public/images/works/vini_stark.png'
 import thumbRPS from '../public/images/works/rps.png'
 import thumbCollage from '../public/images/works/mvc_collage.png'
