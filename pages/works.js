@@ -9,6 +9,7 @@ import thumbSnake from '../public/images/works/snake.png'
 import thumbStark from '../public/images/works/vini_stark.png'
 import thumbRPS from '../public/images/works/rps.png'
 import thumbCollage from '../public/images/works/mvc_collage.png'
+import thumbHSR from '../public/images/works/hsr.png'
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -45,11 +46,12 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="snake"
-            title="CV Snake Game"
-            thumbnail={thumbSnake}
+            id="hsr"
+            title="Optimized HS Rail"
+            thumbnail={thumbHSR}
           >
-            An implementation of the classic Snake game using OpenCV and Python to add dimensionality.
+            Introducing and optimizing high speed rail systems in the United States based on 
+            emissions, cost, and passengers served.
           </WorkGridItem>
         </Section>
 
@@ -61,7 +63,7 @@ const Works = () => (
             thumbnail={thumbStark}
           >
             [CURRENTLY IN PROGRESS] <br /> Set of scripts using cv2 and pyautogui to get me one step closer to
-            my dream of being Tony Stark.
+            being Tony Stark by enabling me to control my computer via gestures.
           </WorkGridItem>
         </Section>
 
