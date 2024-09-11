@@ -37,13 +37,6 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section>
-          <WorkGridItem id="collage" title="Collage Image Processor" thumbnail={thumbCollage}>
-            Imprage processing software in Java with features such as cropping,
-            filtering, layer creation and management, etc.
-          </WorkGridItem>
-        </Section>
-
         <Section delay={0.1}>
           <WorkGridItem
             id="hsr"
@@ -52,6 +45,13 @@ const Works = () => (
           >
             Introducing and optimizing high speed rail systems in the United States based on 
             emissions, cost, and passengers served.
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="collage" title="Collage Image Processor" thumbnail={thumbCollage}>
+            Imprage processing software in Java with features such as cropping,
+            filtering, layer creation and management, etc.
           </WorkGridItem>
         </Section>
 
