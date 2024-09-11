@@ -159,7 +159,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Software Engineer for AerospaceNU's drone team.
+            Software Engineer for AerospaceNU&apos;s drone team.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
@@ -191,7 +191,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            Software Specialist at Forge, Northeastern's product development lab.
+            Software Specialist at Forge, Northeastern&apos;s product development lab.
           </BioSection>
         </Section>
 

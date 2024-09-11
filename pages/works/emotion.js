@@ -33,7 +33,7 @@ const Projects = () => (
         The models used in the experiment were Logistic Regression, LSTM, and a 
         DistilBERT transformer model. I prepared the data and created training, testing, 
         and validation dataset. The three models performed well, resulting in accuracies of 87%, 92%, and 93% respectively, with
-        the DistilBERT model showing the most promise (likely due to it's self-attention mechanism).
+        the DistilBERT model showing the most promise (likely due to its self-attention mechanism).
       </P>
 
       <List ml={4} my={4}>
