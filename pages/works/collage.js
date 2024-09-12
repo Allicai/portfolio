@@ -23,13 +23,6 @@ const Projects = () => (
       <Center my={6}>
         <Image src="/images/works/mvc_collage.png" alt="cm" />
       </Center>
-      <P>
-        Collage uses the MVC (model-view-controller) design pattern. This image-processing program is based around a
-        foundational &quot;pixel&quot; class, and its functions apply to various scopes, such as
-        images, layers, and so on. There are features such as cropping, various filters, brighten and darken tools, blurring effects,
-        layer creation and management, and more. The program was extensively tested using JUnit, and has a simple GUI for ease of use.
-      </P>
-
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Skills</Meta>
@@ -54,6 +47,13 @@ const Projects = () => (
           <Link href="https://w.atwiki.jp/amembo/">使い方wiki</Link>
         </ListItem> */}
       </List>
+      <P>
+        Collage uses the MVC (model-view-controller) design pattern. This image-processing program is based around a
+        foundational &quot;pixel&quot; class, and its functions apply to various scopes, such as
+        images, layers, and so on. There are features such as cropping, various filters, brighten and darken tools, blurring effects,
+        layer creation and management, and more. The program was extensively tested using JUnit, and has a simple GUI for ease of use.
+      </P>
+
       <Center my={6}>
         <Image src="/images/works/ood.png" alt="cm" />
       </Center>

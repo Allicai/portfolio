@@ -58,7 +58,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="forge"
+            id="stark"
             title="&apos;Vini&apos; Stark"
             thumbnail={thumbStark}
           >
