@@ -1,5 +1,5 @@
 import {
-  Link,
+  //Link,
   Container,
   Badge,
   List,
@@ -10,7 +10,7 @@ import {
 import Layout from '../../components/layouts/article'
 // import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
-import P from '../../components/paragraph'
+// import P from '../../components/paragraph'
 
 const Projects = () => (
   <Layout title="Vinny Stark">
