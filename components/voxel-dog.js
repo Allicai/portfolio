@@ -47,12 +47,12 @@ const VoxelDog = () => {
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
-        50 * Math.cos(0.2 * Math.PI)
+        30 * Math.cos(0.2 * Math.PI)
       )
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 - 1
+      const scale = scH * 0.005 - 1.33
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
