@@ -150,10 +150,6 @@ const Home = () => {
             Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>.
           </BioSection>
           <BioSection>
-            <BioYear>2020</BioYear>
-            Took up drawing and design during COVID.
-          </BioSection>
-          <BioSection>
             <BioYear>2021</BioYear>
             Graduated high school and began attending Northeastern.
           </BioSection>
@@ -172,10 +168,6 @@ const Home = () => {
           <BioSection>
             <BioYear>2023</BioYear>
             Began designing clothing and working on a personal brand.
-          </BioSection>
-          <BioSection>
-            <BioYear>2023</BioYear>
-            Learned video editing and started creating short-form content with the aim of creating YouTube videos.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
