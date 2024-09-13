@@ -131,15 +131,11 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2003</BioYear>
-            Born in NY, moved to India to live with relatives.
-          </BioSection>
-          <BioSection>
-            <BioYear>2007</BioYear>
-            Returned to NY after living abroad for 4 years.
+            Born in NY, moved to India to live for 5 years.
           </BioSection>
           <BioSection>
             <BioYear>2014</BioYear>
-            Began playing tennis seriously at a local competitive club.
+            Began playing tennis competitively and training at a club.
           </BioSection>
           <BioSection>
             <BioYear>2016</BioYear>
