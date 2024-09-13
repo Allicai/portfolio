@@ -53,7 +53,7 @@ import {
           <P>
             This project was my first foray into computer vision. It is a simple rock-paper-scissors game that uses your webcame to detect
             your hand gestures. The recognition relies on the gestures being made vertically, with the palm facing the camera. The script detects
-            raised fingers to determine the player's choice, i.e. a peace sign for scissors. The computer's choice is randomly generated.
+            raised fingers to determine the player&apos;s choice, i.e. a peace sign for scissors. The computer&apos;s choice is randomly generated.
           </P>
           <P>
             The game can be started by launching the script and clicking &quot;s&quot;, at which point a countdown begins and the player must make their gesture before it ends.
