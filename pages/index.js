@@ -202,7 +202,7 @@ const Home = () => {
           Soccer
           </Link>
           , {' '}
-          <Link href="https://www.goodreads.com/book/show/58416952-the-will-of-the-many" target="_blank" colorScheme={'teal'}>
+          <Link href="https://www.goodreads.com/book/show/15839976-red-rising" target="_blank" colorScheme={'teal'}>
           Reading
           </Link>
           , {' '}
