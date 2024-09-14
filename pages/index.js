@@ -130,16 +130,8 @@ const Home = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2003</BioYear>
-            Born in NY, moved to India to live for 5 years.
-          </BioSection>
-          <BioSection>
             <BioYear>2014</BioYear>
             Began playing tennis competitively and training at a club.
-          </BioSection>
-          <BioSection>
-            <BioYear>2016</BioYear>
-            Won first official USTA tennis tournament.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
@@ -179,7 +171,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            Software Specialist at Forge, Northeastern&apos;s product development lab.
+            Software Specialist at Forge, a product dev lab.
+          </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
+            Research assistant at Harvard NLP.
           </BioSection>
         </Section>
 
