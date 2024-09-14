@@ -134,6 +134,11 @@ const Home = () => {
             Began playing tennis competitively and training at a club.
           </BioSection>
           <BioSection>
+            <BioYear>2017</BioYear>
+            Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4"> presidential inauguration</Link> and
+            met Malala Yousafzai and members of Congress.
+          </BioSection>
+          <BioSection>
             <BioYear>2019</BioYear>
             Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>.
           </BioSection>
@@ -156,6 +161,10 @@ const Home = () => {
           <BioSection>
             <BioYear>2023</BioYear>
             Began designing clothing and working on a personal brand.
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Mechanical engineer for Northeastern Electric Racing.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
