@@ -17,6 +17,7 @@ export const DogContainer = forwardRef(({ children }, ref) => (
     ref={ref}
     className="voxel-dog"
     m="auto"
+    // for camp nou: -20, 20, -120
     mt={['-20px', '-60px', '-120px']}
     mb={['-40px', '-140px', '-200px']}
     w={[280, 480, 640]}

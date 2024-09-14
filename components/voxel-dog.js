@@ -43,7 +43,11 @@ const VoxelDog = () => {
       refRenderer.current = renderer
       const scene = new THREE.Scene()
 
+      // for pc : 0, 0, 0
+      // for nou: 0, 0, 0
       const target = new THREE.Vector3(0, 0, 0)
+      // for pc: 20, 10, 40
+      // for nou: 70, 0, 0
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
@@ -52,7 +56,9 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 - 0.6
+      // for pc: 0.005 - 0.9
+      // for nou: 0.005 + 3200
+      const scale = scH * 0.005 - 0.9
     
       const camera = new THREE.OrthographicCamera(
         -scale,
