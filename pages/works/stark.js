@@ -10,7 +10,7 @@ import {
 import Layout from '../../components/layouts/article'
 // import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
-// import P from '../../components/paragraph'
+import P from '../../components/paragraph'
 
 const Projects = () => (
   <Layout title="Vinny Stark">
@@ -20,9 +20,6 @@ const Projects = () => (
         <Badge>Computer Vision</Badge> {' '}
         <Badge></Badge>
       </Title>
-      <Center my={6}>
-        <Image src="/images/works/cip.png" alt="banner" />
-      </Center>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Skills</Meta>
@@ -41,22 +38,23 @@ const Projects = () => (
           <Link href="https://w.atwiki.jp/amembo/">使い方wiki</Link>
         </ListItem> */}
       </List>
-       {/*}         
+             
       <P>
-        This project was completed under the supervision of NLP experts at Northeastern University.
-        The goal was to compare the performance of three different models on a Kaggle dataset that
-        provided text data and emotional labels.
+        This project is a set of computer vision scripts that are activated via different gestures, toggling between a mode where I can control
+        settings such as brightness, volume, playback, etc. and one where I can control the mouse, dragging and clicking as needed.
+        
       </P>
-      <P>
-        The models used in the experiment were Logistic Regression, LSTM, and a 
-        DistilBERT transformer model. I prepared the data and created training, testing, 
-        and validation dataset. The three models performed well, resulting in accuracies of 87%, 92%, and 93% respectively, with
-        the DistilBERT model showing the most promise (likely due to its self-attention mechanism).
-      </P>
+
       <Center my={6}>
-        <Image src="/images/works/distilbert.png" alt="cm" />
+        <Image src="/images/works/vin_cook.png" alt="banner" boxSize = "200px" />
       </Center>
-      */}
+
+      <P>
+      The scripts
+      use PyAutoGUI to simulate keyboard and mouse inputs, and OpenCV through mediapipe to detect gestures.
+      </P>
+       
+
     </Container>
   </Layout>
 )

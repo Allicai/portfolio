@@ -21,8 +21,8 @@ import {
           <Badge>OOP</Badge>
         </Title>
         <Center my={6}>
-          <Image src="/images/works/cip.png" alt="banner" />
-        </Center>
+        <Image src="/images/works/vin_cook.png" alt="banner" boxSize = "200px" />
+      </Center>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Skills</Meta>
