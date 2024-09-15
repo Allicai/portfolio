@@ -111,8 +111,8 @@ const Home = () => {
           </Paragraph>
           <Paragraph>
             His completed projects include various implementations of NLP, machine learning, algorithms, and object-oriented
-            design, and he is always looking to learn and apply himself. His latest interest is computer vision,
-            and he&apos;s currently working on projects to gain proficiency and work towards real-world applications.
+            design, and he is always looking to learn and apply himself. His latest interest is in computer vision to pursue
+            his long time desire to be Tony Stark.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -181,10 +181,6 @@ const Home = () => {
           <BioSection>
             <BioYear>Now</BioYear>
             Software Specialist at Forge, a product dev lab.
-          </BioSection>
-          <BioSection>
-            <BioYear>Now</BioYear>
-            Research assistant at Harvard NLP.
           </BioSection>
         </Section>
 

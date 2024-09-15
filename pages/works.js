@@ -59,7 +59,7 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="stark"
-            title="&apos;Vini&apos; Stark"
+            title= "Vinny Stark"
             thumbnail={thumbStark}
           >
             [CURRENTLY IN PROGRESS] <br /> Set of scripts using cv2 and pyautogui to get me one step closer to
