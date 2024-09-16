@@ -184,7 +184,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            Software specialist at Forge, a product development lab at Northeastern.
+            Specialist at Forge, a product development lab @ NU.
           </BioSection>
         </Section>
 
