@@ -140,7 +140,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>.
+            Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>🎾.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -152,11 +152,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Ran a service drawing <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>profile photos</Link> for students at NU.
+            Ran a service drawing <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>profile photos for students</Link>.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Helped a friend establish her <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>NU student clothing store</Link>.
+            Helped a friend design and launch a <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>student clothing store</Link>.
             </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
@@ -164,11 +164,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            AI Engineering intern at GBCS.
+            AI/ML Engineering intern at GBCS💻.
           </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
-            Data Analyst Extern at Beats by Dre.
+            Data Analyst Extern at Beats by Dre🎧.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
