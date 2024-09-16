@@ -178,10 +178,6 @@ const Home = () => {
             <BioYear>2024</BioYear>
             Data Analyst Extern at Beats by Dre.
           </BioSection>
-          <BioSection>
-            <BioYear>Now</BioYear>
-            Software specialist at Forge, a product dev lab at Northeastern.
-          </BioSection>
         </Section>
 
         <Section delay={0.3}>
