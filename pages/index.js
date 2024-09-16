@@ -160,10 +160,6 @@ const Home = () => {
             </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Began designing clothing and working on a personal brand.
-          </BioSection>
-          <BioSection>
-            <BioYear>2023</BioYear>
             Mechanical engineer for Northeastern Electric Racing.
           </BioSection>
           <BioSection>
