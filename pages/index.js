@@ -91,28 +91,30 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            About
+          About
           </Heading>
           <Paragraph>
-            Vinit (Vin) is an undergraduate student based in Boston, MA with a passion 
+            Vinit (Vin) is an undergraduate student based in Boston, MA, with a passion 
             for machine learning and a drive to continually expand his skillset.
-            His academic and professional journey is shaped by a deep interest in NLP and software
-            engineering, and he strives to blend technology with his own creativity.
+            His academic and professional journey is shaped by a deep interest in natural language
+            processing (NLP) and software engineering, blending technology with his own creativity.
           </Paragraph>
           <Paragraph>
-            His most recent experience was as a data analytics extern at Beats by Dre, and he currently serves as a software and hardware programming
-            specialist at Forge, Northeastern&apos;s product dev lab.
+            Recently, Vin completed a data analytics externship at Beats by Dre and is an incoming
+            Machine Learning Engineer co-op at Snowflake. He also serves as a specialist at Forge, 
+            a product development lab at Northeastern, where he mentors student teams and helps bring
+            innovative ideas to life.
           </Paragraph>
           <Paragraph>
-            In his free time, Vin likes to sketch while enjoying coffee at a local café, 
-            play soccer or tennis around Northeastern&apos;s Carter Field, and explore Massachusetts with his friends. 
-            He&apos;s also involved in various clubs and organizations, from the space drone team to
-            the volunteers behind the community fridges, as well as mentoring programs.
+            In his free time, Vin enjoys sketching at local cafés, playing soccer at
+            Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
+            He&apos;s actively involved in various organizations, from the space drone team
+            to volunteering clubs as well as mentor programs.
           </Paragraph>
           <Paragraph>
-            His completed projects include various implementations of NLP, machine learning, algorithms, and object-oriented
-            design, and he is always looking to learn and apply himself. His latest interest is in computer vision to pursue
-            his long time desire to be Tony Stark.
+            Vin&apos;s completed projects showcase his skills in natural language processing, machine learning,
+            algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
+            currently focusing on computer vision.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -127,7 +129,7 @@ const Home = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+          Bio 
           </Heading>
           <BioSection>
             <BioYear>2014</BioYear>
@@ -136,7 +138,7 @@ const Home = () => {
           <BioSection>
             <BioYear>2017</BioYear>
             Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4"> presidential inauguration</Link> and
-            met Malala Yousafzai and members of Congress.
+            met Malala Yousafzai and several members of Congress.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
@@ -164,11 +166,19 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            AI/ML Engineering intern at GBCS💻.
+            AI/ML Engineering intern at GBCS.
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Data Analyst extern at Mobalytics👾.
           </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
-            Data Analyst Extern at Beats by Dre🎧.
+            Data Analyst extern at Beats by Dre🎧.
+          </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
+            Specialist at Forge, a product development lab at NU.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
@@ -178,7 +188,7 @@ const Home = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I ♥
+            I♥ 
           </Heading>
           <Paragraph>
             {' '}
@@ -203,7 +213,7 @@ const Home = () => {
 
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Current Song Obsession :
+          Now Playing 📻:
         </Heading>
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
