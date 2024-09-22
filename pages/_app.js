@@ -18,6 +18,8 @@ function Website({ Component, pageProps, router }) {
     const circles = document.querySelectorAll(".circle");
 
     const colors = [
+
+      // reddish pink from pfp
       "#d24d69", 
       "#d24d69",
       "#d24d69",
@@ -36,7 +38,34 @@ function Website({ Component, pageProps, router }) {
       "#d24d69",
       "#d24d69",
       "#d24d69",
+      "#d24d69",
+      "#d24d69",
+      "#d24d69",
       "#d24d69"
+
+      // black trail with red-pink end
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#000000',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69',
+      // '#d24d69'
     ];
     
 
