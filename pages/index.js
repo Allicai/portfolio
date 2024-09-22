@@ -100,7 +100,7 @@ const Home = () => {
             processing (NLP) and software engineering, blending technology with his own creativity.
           </Paragraph>
           <Paragraph>
-            Recently, Vin completed a data analytics externship at Beats by Dre and is an incoming
+            Recently, Vin completed a data analytics externship at Beats by Dre and now works as a
             Machine Learning Engineer co-op at Snowflake. He also serves as a specialist at Forge, 
             a product development lab at Northeastern, where he mentors student teams and helps bring
             innovative ideas to life.
