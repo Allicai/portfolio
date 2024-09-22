@@ -166,10 +166,6 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            AI/ML Engineering intern at GBCS.
-          </BioSection>
-          <BioSection>
-            <BioYear>2024</BioYear>
             Market Research and Data Analytics at Mobalytics👾.
           </BioSection>
            <BioSection>
