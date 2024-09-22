@@ -137,12 +137,12 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
-            Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4"> presidential inauguration</Link> and
+            Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4" target="_blank"> presidential inauguration</Link> and
             met Malala Yousafzai and several members of Congress.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html">US Open</Link>🎾.
+            Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html" target ="_blank">US Open</Link>🎾.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -210,7 +210,7 @@ const Home = () => {
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
             style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/track/0o73cSWmV0YJeHvzDbJDdn?utm_source=generator"
+            src="https://open.spotify.com/embed/track/6ReKt5x6FVUXTMdWNC6GAQ?utm_source=generator"
             width="100%"
             height="152"
             allowfullscreen=""
