@@ -132,10 +132,6 @@ const Home = () => {
           Bio 
           </Heading>
           <BioSection>
-            <BioYear>2014</BioYear>
-            Began playing tennis competitively and training at a club.
-          </BioSection>
-          <BioSection>
             <BioYear>2017</BioYear>
             Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4" target="_blank"> presidential inauguration</Link> and
             met Malala Yousafzai and several members of Congress.
