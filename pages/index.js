@@ -161,12 +161,16 @@ const Home = () => {
             Mechanical engineer for Northeastern Electric Racing.
           </BioSection>
           <BioSection>
-            <BioYear>2024</BioYear>
-            Market Research and Data Analytics at Mobalytics👾.
+            <BioYear>2023</BioYear>
+            Teaching assistant for NU&apos;s Algorithms & OOD courses.
           </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
-            Data Analytics at Beats by Dre🎧.
+            Data Analytics extern at Beats by Dre🎧.
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Market Research and Data Analytics extern at Mobalytics👾.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
