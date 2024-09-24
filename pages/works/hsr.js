@@ -34,7 +34,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Code</Meta>
-            <Link href="https://github.com/Allicai/high-speed-rail">
+            <Link href="https://github.com/Allicai/high-speed-rail" target="_blank">
               GitHub Link
             </Link>
           </ListItem> 
@@ -56,7 +56,7 @@ import {
           This project was inspired by my experience of various public transportation systems in Europe, Asia, and New York itself
           as well as my personal struggle with commuting between Boston and New York during holidays. Using the 
           knowledge I had gained about algorithms and search spaces, and with the information I gathered regarding the infrastructure
-          of the United States, particularly this <Link href="https://www.scientificamerican.com/article/why-high-speed-bullet-trains-wont-work-in-the-u-s-right-now/#:~:text=High-speed%20rail%20could%20reduce,or%20faster%20than%20air%20travel."> article</Link>,
+          of the United States, particularly this <Link href="https://www.scientificamerican.com/article/why-high-speed-bullet-trains-wont-work-in-the-u-s-right-now/#:~:text=High-speed%20rail%20could%20reduce,or%20faster%20than%20air%20travel." target="_blank"> article</Link>,
           I set out to design an algorithm to optimize the placement of high speed rail systems across the continent.
         </P>
         <P>

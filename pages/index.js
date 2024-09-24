@@ -210,7 +210,7 @@ const Home = () => {
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
             style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/track/6ReKt5x6FVUXTMdWNC6GAQ?utm_source=generator"
+            src="https://open.spotify.com/embed/track/2ej1A2Ze6P2EOW7KfIosZR?utm_source=generator"
             width="100%"
             height="152"
             allowfullscreen=""

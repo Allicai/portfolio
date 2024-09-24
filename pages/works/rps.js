@@ -33,7 +33,7 @@ import {
           </ListItem>
           <ListItem>
           <Meta>Code</Meta>
-          <Link href="https://github.com/Allicai/RPS_CV">
+          <Link href="https://github.com/Allicai/RPS_CV" target="_blank">
             GitHub Link
           </Link>
           </ListItem>
