@@ -154,6 +154,10 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
+            First time winning NU's <Link href="/images/intra_soc.jpeg" target="_blank" colorScheme={'teal'}>intramural soccer league</Link>.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
             Helped a friend design and launch a <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>student clothing store</Link>.
             </BioSection>
           <BioSection>
