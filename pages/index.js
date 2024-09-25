@@ -100,15 +100,15 @@ const Home = () => {
             processing (NLP) and software engineering, blending technology with his own creativity.
           </Paragraph>
           <Paragraph>
-            Recently, he completed a data analytics externship at Beats by Dre and now works as a
-            Machine Learning Engineer co-op at Snowflake. He also serves as a specialist at Forge, 
-            a product development lab at Northeastern, where he mentors student teams and helps bring
-            innovative ideas to life.
+            In his free time, Vin enjoys sketching at local cafés, playing soccer at
+            Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
+            He&apos;s actively involved in various organizations, from the space drone team
+            to volunteering clubs as well as mentor programs.
           </Paragraph>
           <Paragraph>
-            Vin&apos;s completed projects showcase his skills in natural language processing, machine learning,
+            His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
-            currently focusing on computer vision.
+            with his current focus being computer vision.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
