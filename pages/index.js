@@ -106,12 +106,6 @@ const Home = () => {
             innovative ideas to life.
           </Paragraph>
           <Paragraph>
-            In his free time, Vin enjoys sketching at local cafés, playing soccer at
-            Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
-            He&apos;s actively involved in various organizations, from the space drone team
-            to volunteering clubs as well as mentor programs.
-          </Paragraph>
-          <Paragraph>
             Vin&apos;s completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
             currently focusing on computer vision.
