@@ -21,7 +21,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import Script from 'next/script'
+// import Script from 'next/script'
 
 const rotatingTexts = [
   "an undergraduate student at Northeastern University.",
