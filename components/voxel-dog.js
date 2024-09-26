@@ -45,7 +45,8 @@ const VoxelDog = () => {
 
       // for pc : 0, 0, 0
       // for nou: 0, 0, 0
-      const target = new THREE.Vector3(0, 0, 0)
+      // for ppr: 0.5, 0, 0
+      const target = new THREE.Vector3(0.5, 0, 0)
       // for pc: 20, 10, 40
       // for nou: 70, 0, 0
       const initialCameraPosition = new THREE.Vector3(
