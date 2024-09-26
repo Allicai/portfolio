@@ -168,6 +168,10 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
+            Software specialist at Forge, a product dev lab at NU.
+          </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
             Machine Learning Engineer co-op at Snowflake❄️.
           </BioSection>
         </Section>
