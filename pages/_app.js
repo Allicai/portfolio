@@ -14,93 +14,72 @@ if (typeof window !== 'undefined') {
 function Website({ Component, pageProps, router }) {
 
   useEffect(() => {
-    const coords = { x: 0, y: 0 };
-    const circles = document.querySelectorAll(".circle");
-
-    const colors = [
-
-      // reddish pink from pfp
-      "#d24d69", 
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69",
-      "#d24d69"
-
-      // black trail with red-pink end
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#000000',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69',
-      // '#d24d69'
-    ];
+    // Function to detect mobile devices
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
     
+    // If not a mobile device, run the cursor effect
+    if (!isMobile) {
+      const coords = { x: 0, y: 0 };
+      const circles = document.querySelectorAll(".circle");
 
-    circles.forEach((circle, index) => {
-      circle.x = 0;
-      circle.y = 0;
-      circle.style.backgroundColor = colors[index % colors.length];
-    });
-
-    window.addEventListener("mousemove", (e) => {
-      coords.x = e.clientX;
-      coords.y = e.clientY;
-    });
-
-    function animateCircles() {
-      let x = coords.x;
-      let y = coords.y;
+      const colors = [
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69",
+        "#d24d69"
+      ];
 
       circles.forEach((circle, index) => {
-        circle.style.left = `${x - 10}px`;
-        circle.style.top = `${y - 10}px`;
-        circle.style.scale = (circles.length - index) / circles.length;
-
-        circle.x = x;
-        circle.y = y;
-
-        const nextCircle = circles[index + 1] || circles[0];
-        x += (nextCircle.x - x) * 0.2;
-        y += (nextCircle.y - y) * 0.2;
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.backgroundColor = colors[index % colors.length];
       });
 
-      requestAnimationFrame(animateCircles);
-    }
+      window.addEventListener("mousemove", (e) => {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+      });
 
-    animateCircles();
+      function animateCircles() {
+        let x = coords.x;
+        let y = coords.y;
+
+        circles.forEach((circle, index) => {
+          circle.style.left = `${x - 10}px`;
+          circle.style.top = `${y - 10}px`;
+          circle.style.scale = (circles.length - index) / circles.length;
+
+          circle.x = x;
+          circle.y = y;
+
+          const nextCircle = circles[index + 1] || circles[0];
+          x += (nextCircle.x - x) * 0.2;
+          y += (nextCircle.y - y) * 0.2;
+        });
+
+        requestAnimationFrame(animateCircles);
+      }
+
+      animateCircles();
+    }
   }, []);
 
   return (
@@ -108,7 +87,7 @@ function Website({ Component, pageProps, router }) {
       <Fonts />
       <Payhip />
       <Layout router={router}>
-      {[...Array(20)].map((_, i) => (
+        {[...Array(20)].map((_, i) => (
           <div key={i} className="circle"></div>
         ))}
         <AnimatePresence
