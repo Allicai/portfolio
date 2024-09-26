@@ -21,6 +21,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
+import Script from 'next/script'
 
 const rotatingTexts = [
   "an undergraduate student at Northeastern University.",
@@ -97,12 +98,17 @@ const Home = () => {
             Vinit (Vin) is an undergraduate student based in Boston, MA, with a passion 
             for machine learning and a drive to continually expand his skillset.
             His academic and professional journey is shaped by a deep interest in natural language
-            processing (NLP) and software engineering, blending technology with his own creativity.
+            processing (NLP) and software engineering, striving to blend technology with his own creativity.
+          </Paragraph>
+          <Paragraph>
+            He is currently working as a Machine Learning Engineer co-op at Snowflake, and serves as a software
+            specialist at Forge as well as a technical lead on the drone team. He was also recently awarded 
+            a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">applying AI technology to the workplace</Link>.
           </Paragraph>
           <Paragraph>
             In his free time, Vin enjoys sketching at local cafés, playing soccer at
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
-            He&apos;s actively involved in various organizations, from the space drone team
+            He&apos;s actively involved in various organizations, from the robotics team
             to volunteering clubs as well as mentor programs.
           </Paragraph>
           <Paragraph>
@@ -175,6 +181,49 @@ const Home = () => {
             Machine Learning Engineer co-op at Snowflake❄️.
           </BioSection>
         </Section>
+
+      
+        
+        {/* Need to center this */}
+
+        {/* <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+  <blockquote className="badgr-badge" style={{ fontFamily: 'Helvetica, Roboto, "Segoe UI", Calibri, sans-serif' }}>
+    <a href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ">
+      <img width="120px" height="120px" src="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ/image" alt="Badge" />
+    </a>
+    <p className="badgr-badge-name" style={{ hyphens: 'auto', overflowWrap: 'break-word', wordWrap: 'break-word', margin: '0', fontSize: '16px', fontWeight: '600', lineHeight: '1.25', color: '#05012c' }}>
+      Applying AI Technologies to the Workplace
+    </p>
+    <p className="badgr-badge-recipient" style={{ margin: '0', fontSize: '12px', lineHeight: '1.67', color: '#555555' }}>
+      <strong style={{ fontSize: '12px',  fontWeight: 'bold', color: '#000' }}>Awarded To: </strong>
+      <span>Vinit Patel</span>
+    </p>
+    <p style={{ margin: '16px 0', padding: '0' }}>
+      <a
+        className="badgr-badge-verify"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2Fy31YrGMqSEisT6Qk1XtzsQ"
+        style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }} // Centering the link
+      >
+        <Button
+              as={NextLink}
+              href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2Fy31YrGMqSEisT6Qk1XtzsQ"
+              target = "_blank"
+              scroll={false}
+              rightIcon={<ChevronRightIcon />}
+              colorScheme="teal"
+            >Verify</Button>
+      </a>
+    </p>
+  </blockquote>
+</div>
+
+<Script
+  src="https://northeastern.badgr.com/assets/widgets.bundle.js"
+  strategy="lazyOnload" // Load the script lazily after the page is interactive
+  onLoad={() => console.log('Badgr script loaded successfully')}
+/> */}
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">

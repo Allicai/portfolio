@@ -30,7 +30,7 @@ const Projects = () => (
         </ListItem>
         <ListItem>
           <Meta>Code</Meta>
-          <Link href="https://github.com/Allicai/CollageComplete">
+          <Link href="https://github.com/Allicai/CollageComplete" target="_blank">
             GitHub Link
           </Link>
         </ListItem> 

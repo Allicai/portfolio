@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/pokemon_center.glb'
+  const urlDogGLB = '/pokemon_player_room.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -58,7 +58,8 @@ const VoxelDog = () => {
       // 8   -> 6
       // for pc: 0.005 - 0.9
       // for nou: 0.005 + 3200
-      const scale = scH * 0.005 - 0.9
+      // for ppr: 0.005 + 4
+      const scale = scH * 0.005 + 4
     
       const camera = new THREE.OrthographicCamera(
         -scale,
