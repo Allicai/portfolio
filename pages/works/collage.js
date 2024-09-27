@@ -17,7 +17,7 @@ const Projects = () => (
     <Container>
       <Title>
         Collage Image Processor
-        <Badge>Java</Badge> 
+        <Badge>Java</Badge> {' '}
         <Badge>Object-Oriented Design</Badge> 
       </Title>
       <Center my={6}>
