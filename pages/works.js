@@ -56,6 +56,17 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="rps"
+            title="CV Rock-Paper-Scissors"
+            thumbnail={thumbRPS}
+          >
+            Rock-paper-scissors using OpenCV, with a 
+            &quot;cheat mode&quot; where the computer waits momentarily to choose the winning hand.
+          </WorkGridItem>
+        </Section>
+
 
         <Section delay={0.1}>
           <WorkGridItem
@@ -65,17 +76,6 @@ const Works = () => (
           >
             [CURRENTLY IN PROGRESS] <br /> Set of scripts using cv2 and pyautogui to get me one step closer to
             being Tony Stark by enabling me to control my computer via gestures.
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="rps"
-            title="CV Rock-Paper-Scissors"
-            thumbnail={thumbRPS}
-          >
-            Rock-paper-scissors using OpenCV, with a 
-            &quot;cheat mode&quot; where the computer waits momentarily to choose the winning hand.
           </WorkGridItem>
         </Section>
 
