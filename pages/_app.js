@@ -19,32 +19,32 @@ function Website({ Component, pageProps, router }) {
     
     // If not a mobile device, run the cursor effect
     if (!isMobile) {
-      const coords = { x: 0, y: 0 };
+      const coords = { x: 200, y: 200 };
       const circles = document.querySelectorAll(".circle");
 
       const colors = [
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69",
-        "#d24d69"
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478",
+        "#e25478"
       ];
 
       circles.forEach((circle, index) => {

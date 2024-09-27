@@ -72,8 +72,8 @@ const Home = () => {
 
       {/* Profile photo */}
       <Box
-        borderColor="pink.500"
-        borderWidth={3}
+        borderColor="pink.400"
+        borderWidth={2}
         borderStyle="solid"
         w="140px"
         h="140px"

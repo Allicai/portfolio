@@ -9,4 +9,20 @@
     pointer-events: none;
     z-index: 99999999;
   }
-  
+
+* {
+  cursor: none;
+}
+
+link {
+  cursor: none;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(225, 114, 255);
+}
