@@ -21,9 +21,11 @@ const Projects = () => (
         <Badge>Neural Nets</Badge>
         <Badge>Deep-Learning</Badge> 
       </Title>
+
       <Center my={6}>
-        <Image src="/images/works/prep_nlp.png" alt="banner" />
+        <Image src="/images/works/distilbert.png" alt="cm" />
       </Center>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Skills</Meta>
@@ -59,9 +61,8 @@ const Projects = () => (
         and validation dataset. The three models performed well, resulting in accuracies of 87%, 92%, and 93% respectively, with
         the DistilBERT model showing the most promise (likely due to its self-attention mechanism).
       </P>
-
       <Center my={6}>
-        <Image src="/images/works/distilbert.png" alt="cm" />
+        <Image src="/images/works/prep_nlp_teach.png" alt="banner" />
       </Center>
     </Container>
   </Layout>

@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Center, Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -10,6 +10,7 @@ import thumbStark from '../public/images/works/vini_stark.png'
 import thumbRPS from '../public/images/works/rps.png'
 import thumbCollage from '../public/images/works/mvc_collage.png'
 import thumbHSR from '../public/images/works/hsr.png'
+import Image from 'next/image'
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -154,6 +155,17 @@ const Works = () => (
         </Section>
       </SimpleGrid> */}
     </Container>
+    <Center>
+    More coming soon!
+    </Center>
+    <Center>
+    <Image
+          src="/images/vin_salute.png"
+          alt="Profile image"
+          width="140"
+          height="140"
+        />
+    </Center>
   </Layout>
 )
 

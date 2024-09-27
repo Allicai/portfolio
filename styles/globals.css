@@ -14,15 +14,6 @@
   cursor: none;
 }
 
-link {
-  cursor: none;
-}
-
-a {
-  color: blue;
-  text-decoration: none;
-}
-
 a:hover {
-  color: rgb(225, 114, 255);
+  color: rgba(169, 169, 169, 0.997);
 }
