@@ -17,6 +17,7 @@ const Projects = () => (
     <Container>
       <Title>
         NLP Model Evaluation <br />
+        <Badge>NLP</Badge> {' '}
         <Badge>Machine Learning</Badge> {' '}
         <Badge>Neural Nets</Badge> {' '}
         <Badge>Deep-Learning</Badge> 
