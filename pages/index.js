@@ -97,19 +97,14 @@ const Home = () => {
           <Paragraph>
             Vinit (Vin) is an undergraduate student based in Boston, MA, with a passion 
             for machine learning and a drive to continually expand his skillset.
-            His academic and professional journey is shaped by a deep interest in natural language
-            processing (NLP) and software engineering, striving to blend technology with his own creativity.
-          </Paragraph>
-          <Paragraph>
-            He is currently working as a Machine Learning Engineer co-op at Snowflake, and serves as a software
-            specialist at Forge as well as a technical lead on the drone team. He was also recently awarded 
+            He is currently working as a Machine Learning Software Engineer co-op at Snowflake, serves as a software
+            specialist at Forge and a technical lead on the drone team. He was also recently awarded 
             a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">applying AI technology to the workplace</Link>.
           </Paragraph>
           <Paragraph>
-            In his free time, Vin enjoys sketching at local cafés, playing soccer at
+            In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
-            He&apos;s actively involved in various organizations, from the robotics team
-            to volunteering clubs as well as mentor programs.
+            He participates in various organizations and is involved in volunteering and mentor programs.
           </Paragraph>
           <Paragraph>
             His completed projects showcase his skills in natural language processing, machine learning,
@@ -261,7 +256,7 @@ const Home = () => {
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
             style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/track/2ej1A2Ze6P2EOW7KfIosZR?utm_source=generator"
+            src="https://open.spotify.com/embed/track/0o73cSWmV0YJeHvzDbJDdn?utm_source=generator"
             width="100%"
             height="152"
             allowfullscreen=""
