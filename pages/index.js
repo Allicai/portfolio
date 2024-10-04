@@ -133,52 +133,56 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2017</BioYear>
-            Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4" target="_blank"> presidential inauguration</Link> and
+            🏛️Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4" target="_blank"> presidential inauguration</Link> and
             met Malala Yousafzai and several members of Congress.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html" target ="_blank">US Open</Link>🎾.
+            🎾Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html" target ="_blank">US Open</Link>.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Graduated high school and began attending Northeastern.
+            🎓Graduated high school, began attending Northeastern.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Software Engineer for AerospaceNU&apos;s drone team.
+            🛩️Software Engineer for AerospaceNU&apos;s drone team.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Ran a service drawing <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>profile photos for students</Link>.
+            🎨Ran a service drawing <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>profile photos for students</Link>.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Helped a friend design and launch a <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>student clothing store</Link>.
+            🛍️Helped a friend launch a <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>student clothing store</Link>.
             </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Mechanical engineer for Northeastern Electric Racing.
+            🏎️Mechanical engineer for Northeastern Electric Racing.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Teaching assistant for NU&apos;s Algorithms & OOD courses.
+            📚Teaching assistant for NU&apos;s Algorithms & OOD courses.
           </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            🧠AI Engineer intern at GBCS Group.
+           </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
-            Software Engineer extern at Beats by Dre🎧.
+            🎧Software Engineer extern at Beats by Dre.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Data Analytics extern at Mobalytics👾.
+            📊Data Analytics extern at Mobalytics.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            Software specialist at Forge, a product dev lab at NU.
+            💡Software specialist at Forge, a product dev lab at NU.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            Machine Learning Engineer co-op at Snowflake❄️.
+            ❄️Machine Learning Software Engineer co-op at Snowflake.
           </BioSection>
         </Section>
 
