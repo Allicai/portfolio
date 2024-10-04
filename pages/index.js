@@ -166,11 +166,11 @@ const Home = () => {
           </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
-            Data Analytics extern at Beats by Dre🎧.
+            Software Engineer extern at Beats by Dre🎧.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Market Research and Data Analytics extern at Mobalytics👾.
+            Data Analytics extern at Mobalytics👾.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
