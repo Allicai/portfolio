@@ -72,7 +72,7 @@ const Home = () => {
 
       {/* Profile photo */}
       <Box
-        borderColor="pink.400"
+        borderColor="green.100"
         borderWidth={2}
         borderStyle="solid"
         w="140px"
@@ -82,7 +82,7 @@ const Home = () => {
         overflow="hidden"
       >
         <Image
-          src="/images/al4.png"
+          src="/images/al5.png"
           alt="Profile image"
           width="140"
           height="140"
@@ -117,7 +117,7 @@ const Home = () => {
               href="/works"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
-              colorScheme="teal"
+              colorScheme='green'
             >Projects</Button>
           </Box>
         </Section>
@@ -127,13 +127,21 @@ const Home = () => {
           Bio 
           </Heading>
           <BioSection>
+            <BioYear>2016</BioYear>
+            🎾Began coaching tennis at Carefree Racquet Club.
+          </BioSection>
+          <BioSection>
+            <BioYear>2017</BioYear>
+            🩺Volunteered 150+ hours at NUMC, a local hospital.
+          </BioSection>
+          <BioSection>
             <BioYear>2017</BioYear>
             🏛️Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4" target="_blank"> presidential inauguration</Link> and
             met Malala Yousafzai and several members of Congress.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            🎾Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html" target ="_blank">US Open</Link>.
+            👟Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html" target ="_blank">US Open</Link>.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -161,7 +169,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🧠AI Engineer intern at GBCS Group.
+            🧠AI Engineer co-op at GBCS Group.
            </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
@@ -177,7 +185,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            ❄️Machine Learning Software Engineer co-op at Snowflake.
+            ❄️Software Engineer co-op at Snowflake.
           </BioSection>
         </Section>
 
@@ -275,10 +283,10 @@ const Home = () => {
               <Link href="https://github.com/Allicai" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="green"
                   leftIcon={<IoLogoGithub />}
                 >
-                  @Allicai
+                  Allicai
                 </Button>
               </Link>
             </ListItem>
@@ -286,7 +294,7 @@ const Home = () => {
               <Link href="https://www.linkedin.com/in/vinit-patel-873514204/" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme={'teal'}
+                  colorScheme={'green'}
                   leftIcon={<IoLogoLinkedin />}
                 >
                   Vinit Patel
@@ -297,7 +305,7 @@ const Home = () => {
               <Link href="mailto:vinitp0310@gmail.com" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="green"
                   leftIcon={<EmailIcon />}
                 >
                   vinitp0310@gmail.com

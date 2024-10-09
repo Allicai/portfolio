@@ -105,6 +105,8 @@ const Navbar = props => {
               <MenuButton
                 as={IconButton}
                 icon={<HamburgerIcon />}
+                // dark and light mode matching aesthetics
+                // bgColor={useColorModeValue('green.500', 'green.200')}
                 variant="outline"
                 aria-label="Options"
               />
