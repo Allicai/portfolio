@@ -20,7 +20,7 @@ function Website({ Component, pageProps, router }) {
     
     // If not a mobile device, run the cursor effect
     if (!isMobile) {
-      const coords = { x: 700, y: 26 };
+      const coords = { x: 0, y: 0 };
       const circles = document.querySelectorAll(".circle");
 
       const colors = [
