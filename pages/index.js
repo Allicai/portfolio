@@ -169,7 +169,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🧠AI Engineer co-op at GBCS Group.
+            🧠AI Engineer intern at GBCS Group.
            </BioSection>
            <BioSection>
             <BioYear>2024</BioYear>
