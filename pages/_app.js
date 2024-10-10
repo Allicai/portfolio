@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { useEffect } from 'react'
 import '../styles/globals.css'
 
+
 if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'
 }
@@ -19,7 +20,7 @@ function Website({ Component, pageProps, router }) {
     
     // If not a mobile device, run the cursor effect
     if (!isMobile) {
-      const coords = { x: 0, y: 0 };
+      const coords = { x: 700, y: 26 };
       const circles = document.querySelectorAll(".circle");
 
       const colors = [
