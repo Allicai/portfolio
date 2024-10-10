@@ -67,7 +67,7 @@ const Home = () => {
         <Heading as="h2" variant="page-title">
           Vinit Patel
         </Heading>
-        <p>Aspiring SWE | Tennis Player | Artist | Designer | NLP Enthusiast </p>
+        <p>Aspiring SWE | Student | Tennis Player | Artist | NLP Enthusiast </p>
       </Box>
 
       {/* Profile photo */}
