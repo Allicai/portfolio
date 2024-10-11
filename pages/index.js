@@ -268,7 +268,7 @@ const Home = () => {
             width="100%"
             height="152"
             allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture, transparency"
             loading="lazy"
           ></iframe>
         </Box>
