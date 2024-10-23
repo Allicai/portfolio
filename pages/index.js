@@ -95,7 +95,7 @@ const Home = () => {
           About
           </Heading>
           <Paragraph>
-          I'm a dynamic software engineer/computer scientist pursuing a Bachelor of Science in Computer Science concentrated in
+          I&apos;m a dynamic software engineer/computer scientist pursuing a Bachelor of Science in Computer Science concentrated in
           AI and ML at Northeastern University! I entered college with the intention of becoming an electrical/computer engineer but
           quickly fell in love with algorithms, artificial intelligence, and machine learning and the vast applications they have in the real world.
           
