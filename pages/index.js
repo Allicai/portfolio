@@ -58,7 +58,7 @@ const Home = () => {
       bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       css={{ backdropFilter: 'blur(10px)' }}
     >
-      I am {currentText}
+      I&apos;m {currentText}
     </Box>
 
     <Box display="flex" flexDirection="column" alignItems="center">
@@ -95,21 +95,33 @@ const Home = () => {
           About
           </Heading>
           <Paragraph>
-            Vinit (Vin) is an undergraduate student based in Boston, MA, with a passion 
-            for machine learning and a drive to continually expand his skillset.
-            He is currently working as a Machine Learning Software Engineer co-op at Snowflake, serves as a software
-            specialist at Forge and a technical lead on the drone team. He was also recently awarded 
-            a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">applying AI technology to the workplace</Link>.
+          I'm a dynamic software engineer/computer scientist pursuing a Bachelor of Science in Computer Science concentrated in
+          AI and ML at Northeastern University! I entered college with the intention of becoming an electrical/computer engineer but
+          quickly fell in love with algorithms, artificial intelligence, and machine learning and the vast applications they have in the real world.
+          
+            {/* Vinit (Vin) is an undergraduate student based in Boston, MA. He entered college with the intention of becoming
+            an electrical/computer engineer but quickly fell in love with algorithms, machine learning, and artificial intelligence.
+            He is currently a Machine Learning Engineer co-op at Snowflake, serves as a software
+            specialist at Forge and is a technical lead on the drone team. */}
           </Paragraph>
           <Paragraph>
-            In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
+            My current interests lie in computer vision and natural language processing. Recently I've gained experience working with
+            RAG for LLMs, and have been exploring computer vision on my own, focusing on image detection. My current project involves developing
+            a system that detects and recognizes hand gestures and allows me manipulate my desktop using them.
+            {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
-            He participates in various organizations and is involved in volunteering and mentor programs.
+            He participates in various organizations and is involved in volunteering and mentor programs. */}
           </Paragraph>
           <Paragraph>
-            His completed projects showcase his skills in natural language processing, machine learning,
+            This fall, I&apos;m working as a machine learning engineer intern at Snowflake, and serving as a software specialist
+            for Forge, a product development lab at Northeastern. I&apos;m also a technical lead for an independent drone team, and mentoring younger students in the
+            Khoury College of Computer Sciences. Also, I was recently awarded a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">
+            applying AI technology to the workplace</Link>.
+            {/* His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
-            with his current focus being computer vision.
+            with his current focus being computer vision and was recently awarded 
+            a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">
+            applying AI technology to the workplace</Link>. */}
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -185,52 +197,13 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            ❄️Software Engineer co-op at Snowflake.
+            ❄️Machine Learning Engineer co-op at Snowflake.
+          </BioSection>
+          <BioSection>
+            <BioYear>Next</BioYear>
+            🚀Aiming to gain another internship/co-op experience!
           </BioSection>
         </Section>
-
-      
-        
-        {/* Need to center this */}
-
-        {/* <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-  <blockquote className="badgr-badge" style={{ fontFamily: 'Helvetica, Roboto, "Segoe UI", Calibri, sans-serif' }}>
-    <a href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ">
-      <img width="120px" height="120px" src="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ/image" alt="Badge" />
-    </a>
-    <p className="badgr-badge-name" style={{ hyphens: 'auto', overflowWrap: 'break-word', wordWrap: 'break-word', margin: '0', fontSize: '16px', fontWeight: '600', lineHeight: '1.25', color: '#05012c' }}>
-      Applying AI Technologies to the Workplace
-    </p>
-    <p className="badgr-badge-recipient" style={{ margin: '0', fontSize: '12px', lineHeight: '1.67', color: '#555555' }}>
-      <strong style={{ fontSize: '12px',  fontWeight: 'bold', color: '#000' }}>Awarded To: </strong>
-      <span>Vinit Patel</span>
-    </p>
-    <p style={{ margin: '16px 0', padding: '0' }}>
-      <a
-        className="badgr-badge-verify"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2Fy31YrGMqSEisT6Qk1XtzsQ"
-        style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }} // Centering the link
-      >
-        <Button
-              as={NextLink}
-              href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2Fy31YrGMqSEisT6Qk1XtzsQ"
-              target = "_blank"
-              scroll={false}
-              rightIcon={<ChevronRightIcon />}
-              colorScheme="teal"
-            >Verify</Button>
-      </a>
-    </p>
-  </blockquote>
-</div>
-
-<Script
-  src="https://northeastern.badgr.com/assets/widgets.bundle.js"
-  strategy="lazyOnload" // Load the script lazily after the page is interactive
-  onLoad={() => console.log('Badgr script loaded successfully')}
-/> */}
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
