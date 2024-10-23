@@ -24,11 +24,11 @@ import { useState, useEffect } from 'react'
 // import Script from 'next/script'
 
 const rotatingTexts = [
-  "an undergraduate student at Northeastern University.",
+  "an undergraduate student at Northeastern University!",
   "a creative artist!",
   "a passionate sports fan!",
   "an avid reader!",
-  "a growing software engineer.",
+  "a growing software engineer!",
   "a self-motivated learner!"
 ]
 
