@@ -105,7 +105,7 @@ const Home = () => {
             specialist at Forge and is a technical lead on the drone team. */}
           </Paragraph>
           <Paragraph>
-            My current interests lie in computer vision and natural language processing. Recently I've gained experience working with
+            My current interests lie in computer vision and natural language processing. Recently I&apos;ve gained experience working with
             RAG for LLMs, and have been exploring computer vision on my own, focusing on image detection. My current project involves developing
             a system that detects and recognizes hand gestures and allows me manipulate my desktop using them.
             {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
