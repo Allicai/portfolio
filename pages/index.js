@@ -203,6 +203,10 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
+            💼Gained experience through multiple contract internships.
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
             🏎️Mechanical engineer for Northeastern Electric Racing.
           </BioSection>
           <BioSection>
@@ -220,6 +224,10 @@ const Home = () => {
           <BioSection>
             <BioYear>2024</BioYear>
             📊Data Analytics extern at Mobalytics.
+          </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
+            💬Teaching assistant for NU&apos;s NLP course.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
@@ -241,7 +249,7 @@ const Home = () => {
           </Heading>
           <Paragraph>
             {' '}
-            <Link href="/images/nyo.png" target="_blank" colorScheme={'teal'}>
+            <Link href="/images/collage.jpg" target="_blank" colorScheme={'teal'}>
               Tennis
             </Link>
             ,{' '}
