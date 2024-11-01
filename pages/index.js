@@ -8,7 +8,8 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
+  Center
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -24,99 +25,104 @@ import { useState, useEffect } from 'react'
 // import Script from 'next/script'
 
 const rotatingTexts = [
-  "an undergraduate student at Northeastern University!",
-  "a creative artist!",
-  "a passionate sports fan!",
-  "an avid reader!",
-  "a growing software engineer!",
-  "a self-motivated learner!"
+  'an undergraduate student at Northeastern University!',
+  'a creative artist!',
+  'a passionate sports fan!',
+  'an avid reader!',
+  'a growing software engineer!',
+  'a self-motivated learner!'
 ]
 
 const Home = () => {
-  const [currentText, setCurrentText] = useState(rotatingTexts[0]);
+  const [currentText, setCurrentText] = useState(rotatingTexts[0])
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentText(prevText => {
-        const currentIndex = rotatingTexts.indexOf(prevText);
-        const nextIndex = (currentIndex + 1) % rotatingTexts.length;
-        return rotatingTexts[nextIndex];
-      });
-    }, 3000); // 1000 = 1 second
+        const currentIndex = rotatingTexts.indexOf(prevText)
+        const nextIndex = (currentIndex + 1) % rotatingTexts.length
+        return rotatingTexts[nextIndex]
+      })
+    }, 3000) // 1000 = 1 second
 
-    return () => clearInterval(intervalId);
-  }, []);
+    return () => clearInterval(intervalId)
+  }, [])
 
   return (
     <Layout>
       <Container>
-      <Box
-      borderRadius="lg"
-      mb={6}
-      p={3}
-      textAlign="center"
-      bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      css={{ backdropFilter: 'blur(10px)' }}
-    >
-      I&apos;m {currentText}
-    </Box>
+        <Box
+          borderRadius="lg"
+          mb={6}
+          p={3}
+          textAlign="center"
+          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          css={{ backdropFilter: 'blur(10px)' }}
+        >
+          I&apos;m {currentText}
+        </Box>
 
-    <Box display="flex" flexDirection="column" alignItems="center">
-      {/* Text area above the profile photo */}
-      <Box textAlign="center" mb={4}>
-        <Heading as="h2" variant="page-title">
-          Vinit Patel
-        </Heading>
-        <p>Aspiring SWE | Student | Tennis Player | Artist | NLP Enthusiast </p>
-      </Box>
+        <Box display="flex" flexDirection="column" alignItems="center">
+          {/* Text area above the profile photo */}
+          <Box textAlign="center" mb={4}>
+            <Heading as="h2" variant="page-title">
+              Vinit Patel
+            </Heading>
+            <p>
+              Aspiring SWE | Student | Tennis Player | Artist | NLP Enthusiast{' '}
+            </p>
+          </Box>
 
-      {/* Profile photo */}
-      <Box
-        borderColor="green.100"
-        borderWidth={2}
-        borderStyle="solid"
-        w="140px"
-        h="140px"
-        display="inline-block"
-        borderRadius="full"
-        overflow="hidden"
-      >
-        <Image
-          src="/images/al5.png"
-          alt="Profile image"
-          width="140"
-          height="140"
-        />
-      </Box>
-    </Box>
+          {/* Profile photo */}
+          <Box
+            borderColor="green.100"
+            borderWidth={2}
+            borderStyle="solid"
+            w="140px"
+            h="140px"
+            display="inline-block"
+            borderRadius="full"
+            overflow="hidden"
+          >
+            <Image
+              src="/images/al5.png"
+              alt="Profile image"
+              width="140"
+              height="140"
+            />
+          </Box>
+        </Box>
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-          About
+            About
           </Heading>
           <Paragraph>
-          I&apos;m a dynamic software engineer/computer scientist pursuing a Bachelor of Science in Computer Science concentrated in
-          AI and ML at Northeastern University! I entered college with the intention of becoming an electrical/computer engineer but
-          quickly fell in love with algorithms, artificial intelligence, and machine learning and the vast applications they have in the real world.
-          
+            I&apos;m a dynamic software engineer/computer scientist pursuing a
+            Bachelor of Science in Computer Science concentrated in AI and ML at
+            Northeastern University! I entered college with the intention of
+            becoming an electrical/computer engineer but quickly fell in love
+            with algorithms, artificial intelligence, and machine learning and
+            the vast applications they have in the real world.
             {/* Vinit (Vin) is an undergraduate student based in Boston, MA. He entered college with the intention of becoming
             an electrical/computer engineer but quickly fell in love with algorithms, machine learning, and artificial intelligence.
             He is currently a Machine Learning Engineer co-op at Snowflake, serves as a software
             specialist at Forge and is a technical lead on the drone team. */}
           </Paragraph>
           <Paragraph>
-            My current interests lie in computer vision and natural language processing. Recently I&apos;ve gained experience working with
-            RAG for LLMs, and have been exploring computer vision on my own, focusing on image detection. My current project involves developing
-            a system that detects and recognizes hand gestures and allows me manipulate my desktop using them.
+            My current interests lie in computer vision and natural language
+            processing. Recently I&apos;ve gained experience working with RAG
+            for LLMs, and have been exploring image detection on my own.
             {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
             He participates in various organizations and is involved in volunteering and mentor programs. */}
           </Paragraph>
           <Paragraph>
-            This fall, I&apos;m working as a machine learning engineer intern at Snowflake, and serving as a software specialist
-            for Forge, a product development lab at Northeastern. I&apos;m also a technical lead for an independent drone team, and mentoring younger students in the
-            Khoury College of Computer Sciences. Also, I was recently awarded a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">
-            applying AI technology to the workplace</Link>.
+            This fall, I&apos;m working as a machine learning engineer intern at
+            Snowflake, and serving as a software specialist for Forge, a product
+            development lab at Northeastern. I&apos;m also a technical lead for
+            an independent drone team, and TA&apos;ing in the Khoury College of
+            Computer Science.
             {/* His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
             with his current focus being computer vision and was recently awarded 
@@ -129,14 +135,16 @@ const Home = () => {
               href="/works"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
-              colorScheme='green'
-            >Projects</Button>
+              colorScheme="green"
+            >
+              Projects
+            </Button>
           </Box>
         </Section>
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-          Bio 
+            Bio
           </Heading>
           <BioSection>
             <BioYear>2016</BioYear>
@@ -148,12 +156,23 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
-            🏛️Invited to attend the <Link href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4" target="_blank"> presidential inauguration</Link> and
-            met Malala Yousafzai and several members of Congress.
+            🏛️Invited to attend the{' '}
+            <Link
+              href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4"
+              target="_blank"
+            >
+              {' '}
+              presidential inauguration
+            </Link>{' '}
+            and met Malala Yousafzai and several members of Congress.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            👟Completed 3 years of ballboying at the <Link href="https://www.usopen.org/index.html" target ="_blank">US Open</Link>.
+            👟Completed 3 years of ballboying at the{' '}
+            <Link href="https://www.usopen.org/index.html" target="_blank">
+              US Open
+            </Link>
+            .
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -165,12 +184,24 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🎨Ran a service drawing <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>profile photos for students</Link>.
+            🎨Ran a service drawing{' '}
+            <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>
+              profile photos for students
+            </Link>
+            .
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🛍️Helped a friend launch a <Link href="https://hoosky.store/" target="_blank" colorScheme={'teal'}>student clothing store</Link>.
-            </BioSection>
+            🛍️Helped a friend launch a{' '}
+            <Link
+              href="https://hoosky.store/"
+              target="_blank"
+              colorScheme={'teal'}
+            >
+              student clothing store
+            </Link>
+            .
+          </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
             🏎️Mechanical engineer for Northeastern Electric Racing.
@@ -182,8 +213,8 @@ const Home = () => {
           <BioSection>
             <BioYear>2024</BioYear>
             🧠AI Engineer intern at GBCS Group.
-           </BioSection>
-           <BioSection>
+          </BioSection>
+          <BioSection>
             <BioYear>2024</BioYear>
             🎧Software Engineer extern at Beats by Dre.
           </BioSection>
@@ -207,45 +238,75 @@ const Home = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I♥ 
+            I♥
           </Heading>
           <Paragraph>
             {' '}
-          <Link href="/images/nyo.png" target="_blank" colorScheme={'teal'}>
-            Tennis
-          </Link> 
-          , {' '}
-          <Link href="/images/soccer.png" target="_blank" colorScheme={'teal'}>
-          Soccer
-          </Link>
-          , {' '}
-          <Link href="https://www.goodreads.com/book/show/15839976-red-rising" target="_blank" colorScheme={'teal'}>
-          Reading
-          </Link>
-          , {' '}
-          <Link href="/images/niagara.jpeg" target="_blank" colorScheme={'teal'}>
-          Photography
-          </Link>
-          , Drawing/Design, Gaming.
+            <Link href="/images/nyo.png" target="_blank" colorScheme={'teal'}>
+              Tennis
+            </Link>
+            ,{' '}
+            <Link
+              href="/images/soccer.png"
+              target="_blank"
+              colorScheme={'teal'}
+            >
+              Soccer
+            </Link>
+            ,{' '}
+            <Link
+              href="https://www.goodreads.com/book/show/15839976-red-rising"
+              target="_blank"
+              colorScheme={'teal'}
+            >
+              Reading
+            </Link>
+            ,{' '}
+            <Link
+              href="/images/niagara.jpeg"
+              target="_blank"
+              colorScheme={'teal'}
+            >
+              Photography
+            </Link>
+            , Drawing/Design, Gaming.
           </Paragraph>
+          <br></br>
+          Check my blog posts for more info on my interests and experiences!
+          <Box align="center" my={4}>
+            <Button
+              as={NextLink}
+              href="/blogs"
+              scroll={false}
+              rightIcon={<ChevronRightIcon />}
+              colorScheme="green"
+            >
+              Blogs
+            </Button>
+          </Box>
         </Section>
 
         <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Now Playing 📻:
-        </Heading>
-        <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
-          <iframe
-            style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/track/4vHNeBWDQpVCmGbaccrRzi?utm_source=generator"
+          <Heading as="h3" variant="section-title">
+            Now Playing 📻:
+          </Heading>
+          <Box
+            borderRadius="12px"
+            overflow="hidden"
             width="100%"
-            height="152"
-            allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture, transparency"
-            loading="lazy"
-          ></iframe>
-        </Box>
-      </Section>
+            height="152px"
+          >
+            <iframe
+              style={{ borderRadius: '12px' }}
+              src="https://open.spotify.com/embed/track/4vHNeBWDQpVCmGbaccrRzi?utm_source=generator"
+              width="100%"
+              height="152"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture, transparency"
+              loading="lazy"
+            ></iframe>
+          </Box>
+        </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
@@ -264,7 +325,10 @@ const Home = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.linkedin.com/in/vinit-patel-873514204/" target="_blank">
+              <Link
+                href="https://www.linkedin.com/in/vinit-patel-873514204/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme={'green'}

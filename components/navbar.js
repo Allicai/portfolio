@@ -83,6 +83,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Projects
           </LinkItem>
+          <LinkItem href="/blogs" path={path}>
+            Blog
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/Allicai/portfolio"
@@ -117,10 +120,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Projects
                 </MenuItem>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/Allicai/portfolio"
-                >
+                <MenuItem as={Link} href="https://github.com/Allicai/portfolio">
                   View Source
                 </MenuItem>
               </MenuList>
