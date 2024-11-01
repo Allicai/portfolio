@@ -274,6 +274,7 @@ const Home = () => {
             </Link>
             , Drawing/Design, Gaming.
           </Paragraph>
+          {/*}
           <br></br>
           Check my blog posts for more info on my interests and experiences!
           <Box align="center" my={4}>
@@ -287,6 +288,7 @@ const Home = () => {
               Blogs
             </Button>
           </Box>
+          */}
         </Section>
 
         <Section delay={0.3}>
