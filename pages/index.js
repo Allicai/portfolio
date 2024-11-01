@@ -227,10 +227,6 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            💬Teaching assistant for NU&apos;s NLP course.
-          </BioSection>
-          <BioSection>
-            <BioYear>Now</BioYear>
             💡Software specialist at Forge, a product dev lab at NU.
           </BioSection>
           <BioSection>
