@@ -9,7 +9,6 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  Center
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'

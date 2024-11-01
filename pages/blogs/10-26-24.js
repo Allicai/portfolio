@@ -26,7 +26,7 @@ const BlogPost = () => {
           Vinit
         </Heading>
         <Text fontSize="md" mb={4}>
-          To begin, let's cover what my name really is. Vinit. It&apos;s a name
+          To begin, let&apos;s cover what my name really is. Vinit. It&apos;s a name
           I hated for varying periods of my life, but I&apos;ve learned to
           appreciate it as the name my parents gave me, and its meaning.
           According to experts in the field (I asked my parents when I was home
@@ -69,7 +69,7 @@ const BlogPost = () => {
           Vinnie is a nickname that I love quite a bit. It was given to me by a
           childhood coach I had when I played soccer, who joked to my parents
           that I played like Baggio (this is a lie, I was total rubbish), so I
-          should be called Vincenzo. My parents didn't like the idea, but they
+          should be called Vincenzo. My parents didn&apos;t like the idea, but they
           found middle ground with Vinnie. An Italian coach I had for tennis
           during my teenage years also came to the same conclusion, joking that
           I had an Italian temperment to my parents when I&apos;d get

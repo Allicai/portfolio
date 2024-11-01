@@ -19,7 +19,7 @@ const Blogs = () => (
       <SimpleGrid columns={1} gap={0}>
         {' '}
         {/* Reduced gap between items */}
-        {blogs.map((blog, index) => (
+        {blogs.map((blog) => (
           <Section delay={0.1} key={blog.id}>
             <Link href={`/blogs/${blog.id}`} passHref>
               <Flex
