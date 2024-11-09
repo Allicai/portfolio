@@ -231,7 +231,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            ❄️Machine Learning Engineer co-op at Snowflake.
+            ❄️Software Engineer (AI/ML) co-op at Snowflake.
           </BioSection>
           <BioSection>
             <BioYear>Next</BioYear>
