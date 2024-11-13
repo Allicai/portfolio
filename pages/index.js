@@ -117,10 +117,9 @@ const Home = () => {
             He participates in various organizations and is involved in volunteering and mentor programs. */}
           </Paragraph>
           <Paragraph>
-            This fall, I&apos;m working as a machine learning engineer intern at
-            Snowflake, and serving as a software specialist for Forge, a product
-            development lab at Northeastern. I&apos;m also a technical lead for
-            an independent drone team, and TA&apos;ing in the Khoury College of
+            This fall, I&apos;m working as a software engineer intern at
+            Snowflake, serving as a software specialist for Forge, a product
+            development lab at Northeastern, and TA&apos;ing in the Khoury College of
             Computer Science.
             {/* His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
