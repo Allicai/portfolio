@@ -110,9 +110,9 @@ const Home = () => {
           </Paragraph>
           <Paragraph>
             My current interests lie in computer vision and natural language
-            processing. I&apos;m currently working with RAG for LLMs at
-            Snowflake, and have been exploring image detection on my own for a
-            few projects.
+            processing. I&apos;m currently working with RAG for LLMs and
+            creating a few projects using image detection on my own time. Also,
+            I&apos;m learning Typescript and React through a project with a friend.
             {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
             He participates in various organizations and is involved in volunteering and mentor programs. */}
@@ -189,7 +189,7 @@ const Home = () => {
             </Link>
             .
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2022</BioYear>
             🛍️Helped a friend launch a{' '}
             <Link
@@ -200,11 +200,7 @@ const Home = () => {
               student clothing store
             </Link>
             .
-          </BioSection>
-          <BioSection>
-            <BioYear>2023</BioYear>
-            💼Gained experience through multiple contract internships.
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2023</BioYear>
             🏎️Mechanical engineer for Northeastern Electric Racing.
@@ -217,10 +213,10 @@ const Home = () => {
             <BioYear>2024</BioYear>
             🧠AI Engineer intern at GBCS Group.
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2024</BioYear>
             🎧Software Engineer extern at Beats by Dre.
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2024</BioYear>
             📊Data Analytics extern at Mobalytics.
