@@ -110,8 +110,9 @@ const Home = () => {
           </Paragraph>
           <Paragraph>
             My current interests lie in computer vision and natural language
-            processing. Recently I&apos;ve gained experience working with RAG
-            for LLMs, and have been exploring image detection on my own.
+            processing. I&apos;m currently working with RAG for LLMs at
+            Snowflake, and have been exploring image detection on my own for a
+            few projects.
             {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
             He participates in various organizations and is involved in volunteering and mentor programs. */}
@@ -119,7 +120,7 @@ const Home = () => {
           <Paragraph>
             This fall I&apos;m working as a software engineer intern at
             Snowflake, serving as the software specialist for Forge,
-            Northeastern's product dev lab, and TA&apos;ing in the Khoury
+            Northeastern&apos;s product dev lab, and TA&apos;ing in the Khoury
             College of Computer Science.
             {/* His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
