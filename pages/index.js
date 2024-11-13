@@ -8,7 +8,7 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue,
+  useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -117,10 +117,10 @@ const Home = () => {
             He participates in various organizations and is involved in volunteering and mentor programs. */}
           </Paragraph>
           <Paragraph>
-            This fall, I&apos;m working as a software engineer intern at
-            Snowflake, serving as a software specialist for Forge, a product
-            development lab at Northeastern, and TA&apos;ing in the Khoury College of
-            Computer Science.
+            This fall I&apos;m working as a software engineer intern at
+            Snowflake, serving as the software specialist for Forge,
+            Northeastern's product dev lab, and TA&apos;ing in the Khoury
+            College of Computer Science.
             {/* His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
             with his current focus being computer vision and was recently awarded 
@@ -244,7 +244,11 @@ const Home = () => {
           </Heading>
           <Paragraph>
             {' '}
-            <Link href="/images/collage.jpg" target="_blank" colorScheme={'teal'}>
+            <Link
+              href="/images/collage.jpg"
+              target="_blank"
+              colorScheme={'teal'}
+            >
               Tennis
             </Link>
             ,{' '}
