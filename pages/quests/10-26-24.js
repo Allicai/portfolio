@@ -41,10 +41,10 @@ const BlogPost = () => {
 
         <Box mb={4}>
           <Image
-            src="/images/create-ive.png" // Replace with your image URL
-            alt="A tree painting"
-            w="100%" // Stretch image to fill width
-            objectFit="cover" // Ensures the image covers the container
+            src="/images/create-ive.png"
+            alt="chibis of me and friends"
+            w="100%"
+            objectFit="cover"
           />
         </Box>
         
@@ -172,7 +172,7 @@ const BlogPost = () => {
           py={2}
           mb={6}
         >
-          "The master has failed more times than the beginner has tried."
+          &quot;The master has failed more times than the beginner has tried.&quot;
         </Box>
 
         <Text fontSize="md" mb={4}>
