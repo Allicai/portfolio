@@ -112,7 +112,8 @@ const Home = () => {
             My current interests lie in computer vision and natural language
             processing. I&apos;m currently working with RAG for LLMs and
             creating a few projects using image detection on my own time. Also,
-            I&apos;m learning Typescript and React through a project with a friend.
+            I&apos;m learning Typescript and React through a project with a
+            friend.
             {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
             He participates in various organizations and is involved in volunteering and mentor programs. */}
@@ -272,23 +273,22 @@ const Home = () => {
             >
               Photography
             </Link>
-            , Drawing/Design, Gaming.
+            , Drawing/Design, Gaming.{<br />}
+          {/* </Paragraph> */}
+          I also like to reflect and rant on my interests and experiences.
+          To see more on my love for the topics above, check out my side quests!
           </Paragraph>
-          {/*}
-          <br></br>
-          Check my blog posts for more info on my interests and experiences!
           <Box align="center" my={4}>
             <Button
               as={NextLink}
-              href="/blogs"
+              href="/quests"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
               colorScheme="green"
             >
-              Blogs
+              Side Quests
             </Button>
           </Box>
-          */}
         </Section>
 
         <Section delay={0.3}>

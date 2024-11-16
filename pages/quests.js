@@ -4,14 +4,12 @@ import Section from '../components/section'
 import Link from 'next/link'
 
 const blogs = [
-  /*{ id: '11-03-24', title: 'Visca Barca', topic: 'Sports' }, */
-  { id: '10-26-24', title: "I'm Vin(it)", topic: 'Other' }
-
-  // Add more blog posts here
+  { id: '10-26-24', title: "An Urge to Create", topic: 'Reflections' }
+  // more to come!
 ]
 
 const Blogs = () => (
-  <Layout title="Blogs">
+  <Layout title="Side Quests">
     <Container>
       <Text as="h1" fontSize="3xl" textAlign="center" mb={6}>
         Blog Posts
@@ -21,7 +19,7 @@ const Blogs = () => (
         {/* Reduced gap between items */}
         {blogs.map((blog) => (
           <Section delay={0.1} key={blog.id}>
-            <Link href={`/blogs/${blog.id}`} passHref>
+            <Link href={`/quests/${blog.id}`} passHref>
               <Flex
                 as="a"
                 direction="row"
