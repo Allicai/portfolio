@@ -1,23 +1,33 @@
-import { Container, Text, SimpleGrid, Flex } from '@chakra-ui/react'
+import { Container, Text, SimpleGrid, Flex, Image } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Link from 'next/link'
 
 const blogs = [
-  { id: '10-26-24', title: "An Urge to Create", topic: 'Reflections' }
+  { id: '10-26-24', title: 'An Urge to Create', topic: 'Reflections' }
   // more to come!
 ]
 
 const Blogs = () => (
   <Layout title="Side Quests">
     <Container>
-      <Text as="h1" fontSize="3xl" textAlign="center" mb={6}>
-        Quest Log
-      </Text>
+      <Flex align="center" justify="center">
+        <Image
+          src="/images/poke_walk.gif"
+          alt="Quest GIF"
+          width="60px"
+          height="60px"
+        />
+      </Flex>
+      <Flex align="center" justify="center" mb={3}>
+        <Text as="h1" fontSize="3xl" mr={2}>
+          Quest Log
+        </Text>
+      </Flex>
       <SimpleGrid columns={1} gap={0}>
         {' '}
         {/* Reduced gap between items */}
-        {blogs.map((blog) => (
+        {blogs.map(blog => (
           <Section delay={0.1} key={blog.id}>
             <Link href={`/quests/${blog.id}`} passHref>
               <Flex

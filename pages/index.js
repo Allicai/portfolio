@@ -8,6 +8,7 @@ import {
   Button,
   List,
   ListItem,
+  Text,
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
@@ -185,7 +186,11 @@ const Home = () => {
           <BioSection>
             <BioYear>2022</BioYear>
             🎨Ran a side gig drawing{' '}
-            <Link href="/images/create-ive.png" target="_blank" colorScheme={'teal'}>
+            <Link
+              href="/images/create-ive.png"
+              target="_blank"
+              colorScheme={'teal'}
+            >
               profile photos for students
             </Link>
             .
@@ -240,28 +245,19 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             I♥
           </Heading>
-          <Paragraph>
-            {' '}
-            <Link
-              href="/images/collage.jpg"
-              target="_blank"
-              colorScheme={'teal'}
-            >
+          <Text>
+            <Link href="/images/collage.jpg" target="_blank" colorScheme="teal">
               Tennis
             </Link>
             ,{' '}
-            <Link
-              href="/images/soccer.png"
-              target="_blank"
-              colorScheme={'teal'}
-            >
+            <Link href="/images/soccer.png" target="_blank" colorScheme="teal">
               Soccer
             </Link>
             ,{' '}
             <Link
               href="https://www.goodreads.com/book/show/15839976-red-rising"
               target="_blank"
-              colorScheme={'teal'}
+              colorScheme="teal"
             >
               Reading
             </Link>
@@ -269,15 +265,16 @@ const Home = () => {
             <Link
               href="/images/niagara.jpeg"
               target="_blank"
-              colorScheme={'teal'}
+              colorScheme="teal"
             >
               Photography
             </Link>
-            , Drawing/Design, Gaming.{<br />}
-          {/* </Paragraph> */}
-          I also like to reflect and rant on my interests and experiences.
-          To see more on my love for the topics above, check out my side quests!
-          </Paragraph>
+            , Drawing/Design, Gaming.
+            <br />
+          </Text>
+          <Text>
+            To see more on my thoughts & interests, check out my side quests!
+          </Text>
           <Box align="center" my={4}>
             <Button
               as={NextLink}
@@ -286,7 +283,7 @@ const Home = () => {
               rightIcon={<ChevronRightIcon />}
               colorScheme="green"
             >
-              Side Quests
+              Quest Log
             </Button>
           </Box>
         </Section>

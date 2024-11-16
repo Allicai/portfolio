@@ -31,13 +31,13 @@ const Logo = () => {
           alt="Profile image"
           width="20"
           height="20"
-          ml={2}
+          mr={4}
         />
         <Text
-          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+          color={useColorModeValue('gray.800', 'green.200')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
-          ml={8}
+          ml={4}
         >
           Vinit Patel
         </Text>
