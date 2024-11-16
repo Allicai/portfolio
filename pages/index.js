@@ -184,8 +184,8 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🎨Ran a service drawing{' '}
-            <Link href="/images/pfps.jpg" target="_blank" colorScheme={'teal'}>
+            🎨Ran a side gig drawing{' '}
+            <Link href="/images/create-ive.png" target="_blank" colorScheme={'teal'}>
               profile photos for students
             </Link>
             .

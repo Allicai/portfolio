@@ -34,19 +34,17 @@ const BlogPost = () => {
           tools, I developed a drive to make things, not just for school but for
           myself and for others. The feeling of making something on my own
           merits, and the joy it brought for the people I made it for, was
-          addictive. Despite all the things I&apos;ve made, I still smile looking
-          at things I made for friends, from little drawings to larger projects I
-          made as actual gifts.
+          addictive.
         </Text>
 
-        <Box mb={4}>
+        {/* <Box mb={4}>
           <Image
             src="/images/create-ive.png"
             alt="chibis of me and friends"
             w="100%"
             objectFit="cover"
           />
-        </Box>
+        </Box> */}
         
         <Text fontSize="md" mb={4}>
           Today, I&apos;ve explored a wide range of creative outlets: drawing,
