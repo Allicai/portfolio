@@ -1,7 +1,7 @@
 // /pages/blogs/10-26-24.js
 import { Container, Text, Heading } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Box, Image, Flex } from '@chakra-ui/react'
+import { Box, Image } from '@chakra-ui/react'
 
 const BlogPost = () => {
   return (
