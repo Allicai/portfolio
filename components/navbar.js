@@ -85,7 +85,7 @@ const Navbar = props => {
           </LinkItem>
           
           <LinkItem href="/quests" path={path}>
-            Side Quests
+            Quest Log
           </LinkItem>
          
           <LinkItem

@@ -12,7 +12,7 @@ const Blogs = () => (
   <Layout title="Side Quests">
     <Container>
       <Text as="h1" fontSize="3xl" textAlign="center" mb={6}>
-        Log
+        Quest Log
       </Text>
       <SimpleGrid columns={1} gap={0}>
         {' '}
