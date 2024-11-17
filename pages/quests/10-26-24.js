@@ -7,9 +7,9 @@ const BlogPost = () => {
   return (
     <Layout title="Create-ive">
       <Container maxW="container.md">
-        <Heading as="h1" size="xl" mb={4} color="green.600">
+        <Heading as="h1" size="xl" mb={4} color="green.300">
           An Urge to
-          <Text as="span" color="green.400" display="inline">
+          <Text as="span" color="purple.300" display="inline">
             {' '}
             Create
           </Text>
@@ -45,7 +45,7 @@ const BlogPost = () => {
             objectFit="cover"
           />
         </Box> */}
-        
+
         <Text fontSize="md" mb={4}>
           Today, I&apos;ve explored a wide range of creative outlets: drawing,
           3D modeling, 3D printing, designing clothing, creating music, video
@@ -146,7 +146,8 @@ const BlogPost = () => {
           <Text as="b" color="blue.200" display="inline">
             imaginative geniuses
           </Text>
-          , but they&apos;ve never tried to make anything. I think that&apos;s a{' '}
+          , but they&apos;ve never tried to make something out of their ideas. I
+          think that&apos;s a{' '}
           <Text as="b" color="red.300" display="inline">
             tragedy
           </Text>
@@ -156,8 +157,7 @@ const BlogPost = () => {
           </Text>{' '}
           ones. The world has likely missed out on great works of art, music,
           literature, and more because people never tried. I&apos;ve been told
-          I&apos;m talented but I don&apos;t think that&apos;s the case. As the
-          saying goes...
+          I&apos;m talented but that&apos;s not the case. As the saying goes...
         </Text>
         <Box
           as="blockquote"
@@ -170,11 +170,12 @@ const BlogPost = () => {
           py={2}
           mb={6}
         >
-          &quot;The master has failed more times than the beginner has tried.&quot;
+          &quot;The master has failed more times than the beginner has
+          tried.&quot;
         </Box>
 
         <Text fontSize="md" mb={4}>
-          ... and I&apos;m hardly a master. So please,{' '}
+          ... and I&apos;m no master. So please,{' '}
           <Text as="b" color="green.400" display="inline">
             try
           </Text>
@@ -197,10 +198,11 @@ const BlogPost = () => {
           anything I do. I have simply tried more things more times than you
           have and failed at them. So from someone who has likely failed more
           times than you have tried I urge you to{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="purple.300" display="inline">
             create
           </Text>
-          , and if I can be so bold to make a suggestion, try starting with a{' '}
+          . I believe people can discover new interests and passions from very
+          simple things. Even just a{' '}
           <Text as="b" color="green.400" display="inline">
             {' '}
             painting of a tree

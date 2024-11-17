@@ -34,6 +34,7 @@ export const WorkGridItem = ({
       href={`/${category}/${id}`}
       scroll={false}
       cursor="pointer"
+      _hover={{ textColor: 'green.300' }}
     >
       <Image
         src={thumbnail}

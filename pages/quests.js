@@ -20,7 +20,7 @@ const Blogs = () => (
         />
       </Flex>
       <Flex align="center" justify="center" mb={3}>
-        <Text as="h1" fontSize="3xl" mr={2}>
+        <Text as="h1" fontSize="3xl" mr={2} color={'purple.300'}>
           Quest Log
         </Text>
       </Flex>
@@ -37,13 +37,14 @@ const Blogs = () => (
                 p={2}
                 borderWidth="1px"
                 borderRadius="lg"
-                _hover={{ bg: 'gray.100' }}
+                borderColor='gray.100'
+                _hover={{ bg: 'purple.800' }}
               >
-                <Text fontSize="md" fontWeight="bold">
+                <Text fontSize="md" color="purple.100" fontStyle="italic">
                   {blog.id}
                 </Text>
-                <Text fontSize="md">{blog.title}</Text>
-                <Text fontSize="md" color="gray.500">
+                <Text fontSize="md" fontWeight="bold" color="purple.200">{blog.title}</Text>
+                <Text fontSize="md" color="purple.300">
                   Topic: {blog.topic}
                 </Text>
               </Flex>

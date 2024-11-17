@@ -28,8 +28,5 @@ a[button]{
 
 a[button]:hover{
   cursor: none;
-}
 
-a[href]:hover {
-  color: rgba(53, 97, 72, 1.0);
 }

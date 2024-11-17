@@ -122,6 +122,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Projects
                 </MenuItem>
+                <MenuItem as={MenuLink} href="/quests">
+                  Quest Log
+                </MenuItem>
                 <MenuItem as={Link} href="https://github.com/Allicai/portfolio">
                   View Source
                 </MenuItem>
