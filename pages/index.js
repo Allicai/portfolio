@@ -51,6 +51,7 @@ const Home = () => {
   return (
     <Layout>
       <Container>
+        
         <Box
           borderRadius="lg"
           mb={6}
@@ -195,7 +196,7 @@ const Home = () => {
             </Link>
             .
           </BioSection>
-          {/* <BioSection>
+          <BioSection>
             <BioYear>2022</BioYear>
             🛍️Helped a friend launch a{' '}
             <Link
@@ -206,7 +207,7 @@ const Home = () => {
               student clothing store
             </Link>
             .
-          </BioSection> */}
+          </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
             🏎️Mechanical engineer for Northeastern Electric Racing.
@@ -219,14 +220,26 @@ const Home = () => {
             <BioYear>2024</BioYear>
             🧠AI Engineer intern at GBCS Group.
           </BioSection>
-          {/* <BioSection>
+          <BioSection>
             <BioYear>2024</BioYear>
             🎧Software Engineer extern at Beats by Dre.
-          </BioSection> */}
+          </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
             📊Data Analytics extern at Mobalytics.
           </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
+            🖼️Creating{' '}
+            <Link
+              href="/images/vin_sprite_draft.png"
+              target="_blank"
+              colorScheme={'teal'}
+            >
+              sprite art
+            </Link>
+            {' '}for a team making a Pokemon game.
+            </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
             💡Software specialist at Forge, a product dev lab at NU.
