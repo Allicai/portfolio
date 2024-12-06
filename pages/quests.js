@@ -4,8 +4,8 @@ import Section from '../components/section'
 import Link from 'next/link'
 
 const blogs = [
+  { id: '12-04-24', title: 'Snowflake❄️', topic: 'Reflections' }, 
   { id: '10-26-24', title: 'An Urge to Create', topic: 'Reflections' }
-  // more to come!
 ]
 
 const Blogs = () => (
@@ -19,20 +19,20 @@ const Blogs = () => (
           height="60px"
         />
       </Flex>
-      <Flex align="center" justify="center" mb={3}>
-        <Text as="h1" fontSize="3xl" mr={2} color={'green.300'}>
+      <Flex align="center" justify="center" mb={2}>
+        <Text as="h1" fontSize="4xl" mr={2} color={'green.200'}>
           Quest Log
         </Text>
       </Flex>
       <SimpleGrid columns={1} gap={0}>
         {' '}
-        {/* Reduced gap between items */}
         {blogs.map(blog => (
           <Section delay={0.1} key={blog.id}>
             <Link href={`/quests/${blog.id}`} passHref>
               <Flex
                 as="a"
                 direction="row"
+                align="center"
                 justify="space-between"
                 p={2}
                 borderWidth="1px"
@@ -40,12 +40,13 @@ const Blogs = () => (
                 borderColor='gray.100'
                 _hover={{ bg: 'green.800' }}
               >
-                <Text fontSize="md" color="green.100" fontStyle="italic">
+                <Text fontSize="md" color="green.200" fontStyle="italic">
                   {blog.id}
                 </Text>
-                <Text fontSize="md" fontWeight="bold" color="green.200">{blog.title}</Text>
-                <Text fontSize="md" color="green.300">
-                  Topic: {blog.topic}
+                <Text fontSize="md" fontWeight="bold" color="green.300">
+                  {blog.title}</Text>
+                <Text fontSize="md" color="green.400">
+                {blog.topic}
                 </Text>
               </Flex>
             </Link>

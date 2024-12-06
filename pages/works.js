@@ -44,7 +44,7 @@ const Works = () => (
             title="Collage Image Processor"
             thumbnail={thumbCollage}
           >
-            Imprage processing software in Java with features such as cropping,
+            Image processing software in Java with features such as cropping,
             filtering, layer creation and management, etc.
           </WorkGridItem>
         </Section>
