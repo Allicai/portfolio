@@ -341,7 +341,7 @@ const Home = () => {
               src="https://open.spotify.com/embed/track/4vHNeBWDQpVCmGbaccrRzi?utm_source=generator"
               width="100%"
               height="152"
-              allowfullscreen=""
+              allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture, transparency"
               loading="lazy"
             ></iframe>
