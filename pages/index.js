@@ -51,7 +51,6 @@ const Home = () => {
   return (
     <Layout>
       <Container>
-        
         <Box
           borderRadius="lg"
           mb={6}
@@ -70,7 +69,7 @@ const Home = () => {
               Vinit Patel
             </Heading>
             <p>
-              Aspiring SWE | Student | Tennis Player | Artist | NLP Enthusiast{' '}
+            Aspiring Polymath ( Artist / Engineer / Tennis Player )
             </p>
           </Box>
 
@@ -110,21 +109,23 @@ const Home = () => {
             He is currently a Machine Learning Engineer co-op at Snowflake, serves as a software
             specialist at Forge and is a technical lead on the drone team. */}
           </Paragraph>
+          <br></br>
           <Paragraph>
-            My current interests lie in computer vision and natural language
-            processing. I&apos;m currently working with RAG for LLMs and
-            creating a few projects using image detection on my own time. Also,
-            I&apos;m learning Typescript and React through a project with a
-            friend.
+            My current interests lie in natural language processing and computer
+            vision; I&apos;m currently working with RAG for LLMs and creating a
+            few projects using image detection on my own time. I&apos;m also
+            learning JavaScript (TypeScript) and React through an ongoing
+            project.
             {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
             Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
             He participates in various organizations and is involved in volunteering and mentor programs. */}
           </Paragraph>
+          <br></br>
           <Paragraph>
             This fall I&apos;m working as a software engineer intern at
             Snowflake, serving as the software specialist for Forge,
-            Northeastern&apos;s product dev lab, and TA&apos;ing in the Khoury
-            College of Computer Science.
+            Northeastern&apos;s product dev lab, and creating sprites and 2D art
+            for a game I&apos;m working on.
             {/* His completed projects showcase his skills in natural language processing, machine learning,
             algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
             with his current focus being computer vision and was recently awarded 
@@ -150,7 +151,7 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2016</BioYear>
-            🎾Began coaching tennis at Carefree Racquet Club.
+            🎾First tennis coaching role at Carefree Racquet Club.
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
@@ -166,13 +167,21 @@ const Home = () => {
               {' '}
               presidential inauguration
             </Link>{' '}
-            and met Malala Yousafzai and several members of Congress.
+            and met{' '}
+            <Link href="https://malala.org/malalas-story" target="_blank">
+              {' '}
+              Malala Yousafzai
+            </Link>{' '}
+            along with several members of Congress.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            👟Completed 3 years of ballboying at the{' '}
-            <Link href="https://www.usopen.org/index.html" target="_blank">
-              US Open
+            👟Completed 3 years of{' '}
+            <Link
+              href="https://www.usopen.org/en_US/content/us_open_ball_crew.html"
+              target="_blank"
+            >
+              ballboying at the US Open
             </Link>
             .
           </BioSection>
@@ -182,7 +191,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🛩️Software Engineer for AerospaceNU&apos;s drone team.
+            🛩️Software Engineer for{' '}
+            <Link href="https://www.aerospacenu.com/nuav" target="_blank">
+              AerospaceNU's drone team
+            </Link>{' '}
+            .
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
@@ -210,7 +223,14 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            🏎️Mechanical engineer for Northeastern Electric Racing.
+            🏎️Mechanical engineer for{' '}
+            <Link
+              href="https://electricracing.northeastern.edu/"
+              target="_blank"
+            >
+              Northeastern Electric Racing
+            </Link>{' '}
+            .
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
@@ -218,15 +238,15 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🧠AI Engineer intern at GBCS Group.
+            🧠AI Engineer intern at GBCS Group - fleet forecasting.
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2024</BioYear>
             🎧Software Engineer extern at Beats by Dre.
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2024</BioYear>
-            📊Data Analytics extern at Mobalytics.
+            📊Data Analytics extern at Mobalytics - NLP for markets.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
@@ -237,20 +257,24 @@ const Home = () => {
               colorScheme={'teal'}
             >
               sprite art
-            </Link>
-            {' '}for a team making a Pokemon game.
-            </BioSection>
-          <BioSection>
-            <BioYear>Now</BioYear>
-            💡Software specialist at Forge, a product dev lab at NU.
+            </Link>{' '}
+            for a Pokemon ROM Hack.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            ❄️Software Engineer co-op at Snowflake.
+            💡Software Specialist at{' '}
+            <Link href="https://www.forgenu.com/home" target="_blank">
+              Forge
+            </Link>
+            , a product dev lab at NU.
+          </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
+            ❄️Software Engineer co-op at Snowflake - AI/ML team.
           </BioSection>
           <BioSection>
             <BioYear>Next</BioYear>
-            🚀Aiming to gain another internship/co-op experience!
+            🚀Pursuing another internship or co-op experience!
           </BioSection>
         </Section>
 
@@ -285,6 +309,7 @@ const Home = () => {
             , Drawing/Design, Gaming.
             <br />
           </Text>
+          <br></br>
           <Text>
             To see more on my thoughts & interests, check out my side quests!
           </Text>
