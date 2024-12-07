@@ -193,7 +193,7 @@ const Home = () => {
             <BioYear>2022</BioYear>
             🛩️Software Engineer for{' '}
             <Link href="https://www.aerospacenu.com/nuav" target="_blank">
-              AerospaceNU's drone team
+              AerospaceNU&apos;s drone team
             </Link>{' '}
             .
           </BioSection>
