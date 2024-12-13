@@ -29,14 +29,6 @@ const Projects = () => (
           <Meta>Progress</Meta>
           <span>In Progress</span>
         </ListItem>
-        {/*<ListItem>
-          <Meta>When</Meta>
-          <span>Spring 2023</span>
-        </ListItem>
-         <ListItem>
-          <Meta>Manual</Meta>
-          <Link href="https://w.atwiki.jp/amembo/">使い方wiki</Link>
-        </ListItem> */}
       </List>
              
       <P>
