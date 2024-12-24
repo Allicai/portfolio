@@ -151,7 +151,7 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2016</BioYear>
-            🎾First tennis coaching role at Carefree Racquet Club.
+            🎾Began coaching tennis at Carefree Racquet Club.
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
@@ -186,38 +186,34 @@ const Home = () => {
             .
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
-            🎓Graduated high school, began attending Northeastern.
-          </BioSection>
-          <BioSection>
             <BioYear>2022</BioYear>
             🛩️Software Engineer for{' '}
             <Link href="https://www.aerospacenu.com/nuav" target="_blank">
               AerospaceNU&apos;s drone team
-            </Link>{' '}
-            .
-          </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
-            🎨Ran a side gig drawing{' '}
-            <Link
-              href="/images/create-ive.png"
-              target="_blank"
-              colorScheme={'teal'}
-            >
-              profile photos for students
             </Link>
             .
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🛍️Helped a friend launch a{' '}
+            🎨Drew some{' '}
+            <Link
+              href="/images/create-ive.png"
+              target="_blank"
+              colorScheme={'teal'}
+            >
+              chibi art for friends
+            </Link>
+            {' '}and other students.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            🛍️Helped a friend create a{' '}
             <Link
               href="https://hoosky.store/"
               target="_blank"
               colorScheme={'teal'}
             >
-              student clothing store
+              NU student clothing store
             </Link>
             .
           </BioSection>
@@ -229,7 +225,7 @@ const Home = () => {
               target="_blank"
             >
               Northeastern Electric Racing
-            </Link>{' '}
+            </Link>
             .
           </BioSection>
           <BioSection>
@@ -238,42 +234,26 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🧠AI Engineer intern at GBCS Group - fleet forecasting.
+            📊Data Analytics intern at Mobalytics - market strategies.
           </BioSection>
-          {/* <BioSection>
-            <BioYear>2024</BioYear>
-            🎧Software Engineer extern at Beats by Dre.
-          </BioSection> */}
           <BioSection>
             <BioYear>2024</BioYear>
-            📊Data Analytics extern at Mobalytics - NLP for markets.
+            🖼️Created sprite art for a Pokemon ROM Hack.
           </BioSection>
           <BioSection>
-            <BioYear>Now</BioYear>
-            🖼️Creating{' '}
-            <Link
-              href="/images/vin_sprite_draft.png"
-              target="_blank"
-              colorScheme={'teal'}
-            >
-              sprite art
-            </Link>{' '}
-            for a Pokemon ROM Hack.
-          </BioSection>
-          <BioSection>
-            <BioYear>Now</BioYear>
+            <BioYear>2024</BioYear>
             💡Software Specialist at{' '}
             <Link href="https://www.forgenu.com/home" target="_blank">
               Forge
             </Link>
-            , a product dev lab at NU.
+            , a product development lab.
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            ❄️Software Engineer co-op at Snowflake - AI/ML solutions.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            ❄️Software Engineer co-op at Snowflake - AI/ML team.
-          </BioSection>
-          <BioSection>
-            <BioYear>Next</BioYear>
             🚀Pursuing another internship or co-op experience!
           </BioSection>
         </Section>
