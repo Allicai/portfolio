@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const BlogPost = () => {
   return (
-    <Layout title="Create-ive">
+    <Layout title="Snowflake❄️">
       <Container maxW="container.md">
         <Heading as="h1" size="xl" mb={4} color="blue.300">
           Snowflake❄️
