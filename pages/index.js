@@ -235,7 +235,10 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            ❄️Software Engineer co-op at Snowflake - AI/ML solutions.
+            ❄️Software Engineer co-op at Snowflake -{' '}
+            <Link href="https://www.snowflake.com/en/developers/solutions-center/aggregating-product-data-with-snowflake-cortex-notebooks/">
+              certified solution!
+            </Link>
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
