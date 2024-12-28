@@ -14,7 +14,7 @@ import Image from 'next/image'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4} color={'green.300'}>
+      <Heading as="h3" fontSize={20} mb={4} color={'blue.300'}>
         Projects
       </Heading>
 

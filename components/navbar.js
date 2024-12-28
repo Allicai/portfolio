@@ -28,7 +28,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       href={href}
       scroll={false}
       p={2}
-      bg={active ? 'green.200' : undefined}
+      bg={active ? 'blue.200' : undefined}
       color={active ? '#202023' : inactiveColor}
       target={target}
       {...props}
@@ -111,7 +111,7 @@ const Navbar = props => {
                 as={IconButton}
                 icon={<HamburgerIcon />}
                 // dark and light mode matching aesthetics
-                // bgColor={useColorModeValue('green.500', 'green.200')}
+                // bgColor={useColorModeValue('blue.500', 'blue.200')}
                 variant="outline"
                 aria-label="Options"
               />

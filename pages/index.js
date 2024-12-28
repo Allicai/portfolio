@@ -68,14 +68,12 @@ const Home = () => {
             <Heading as="h2" variant="page-title">
               Vinit Patel
             </Heading>
-            <p>
-            Aspiring Polymath ( Artist / Engineer / Tennis Player )
-            </p>
+            <p>Aspiring Polymath ( Artist / Engineer / Tennis Player )</p>
           </Box>
 
           {/* Profile photo */}
           <Box
-            borderColor="green.100"
+            borderColor="blue.100"
             borderWidth={2}
             borderStyle="solid"
             w="140px"
@@ -85,7 +83,7 @@ const Home = () => {
             overflow="hidden"
           >
             <Image
-              src="/images/al5.png"
+              src="/images/al1.png"
               alt="Profile image"
               width="140"
               height="140"
@@ -103,34 +101,21 @@ const Home = () => {
             Northeastern University! I entered college with the intention of
             becoming an electrical/computer engineer but quickly fell in love
             with algorithms, artificial intelligence, and machine learning and
-            the vast applications they have in the real world.
-            {/* Vinit (Vin) is an undergraduate student based in Boston, MA. He entered college with the intention of becoming
-            an electrical/computer engineer but quickly fell in love with algorithms, machine learning, and artificial intelligence.
-            He is currently a Machine Learning Engineer co-op at Snowflake, serves as a software
-            specialist at Forge and is a technical lead on the drone team. */}
+            the vast applications they have in the real world. Recently, I was a
+            Software Engineer co-op at Snowflake, working on AI/ML solutions!
           </Paragraph>
-          <br></br>
           <Paragraph>
-            My current interests lie in natural language processing and computer
-            vision; I&apos;m currently working with RAG for LLMs and creating a
-            few projects using image detection on my own time. I&apos;m also
-            learning JavaScript (TypeScript) and React through an ongoing
-            project.
-            {/* In his free time, Vin enjoys sketching at local cafés, playing soccer or tennis around
-            Northeastern&apos;s Carter Field, and exploring Massachusetts with his friends. 
-            He participates in various organizations and is involved in volunteering and mentor programs. */}
+            My current focus is to grow professionally and personally through
+            work experience and gain exposure to more industries as I prepare
+            for a full-time career. I&apos;m also working on projects involving
+            computer vision, and teaching myself JavaScript (TypeScript) and
+            React.
           </Paragraph>
-          <br></br>
           <Paragraph>
-            This fall I&apos;m working as a software engineer intern at
-            Snowflake, serving as the software specialist for Forge,
-            Northeastern&apos;s product dev lab, and creating sprites and 2D art
-            for a game I&apos;m working on.
-            {/* His completed projects showcase his skills in natural language processing, machine learning,
-            algorithm design, and software development. He is always seeking new challenges to expand his knowledge,
-            with his current focus being computer vision and was recently awarded 
-            a badge in <Link href="https://api.badgr.io/public/assertions/y31YrGMqSEisT6Qk1XtzsQ?identity__email=patel.vinit%40northeastern.edu" target="_blank">
-            applying AI technology to the workplace</Link>. */}
+            In my free time I enjoy sketching at local cafés, playing soccer and
+            tennis at Northeastern&apos;s Carter Field, and exploring Boston
+            with friends! I&apos;ve also joined a team to develop a Pokemon ROM
+            Hack game where I&apos;m creating sprite art and designing maps!
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -138,7 +123,7 @@ const Home = () => {
               href="/works"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
-              colorScheme="green"
+              colorScheme="blue"
             >
               Projects
             </Button>
@@ -202,8 +187,8 @@ const Home = () => {
               colorScheme={'teal'}
             >
               chibi art for friends
-            </Link>
-            {' '}and other students.
+            </Link>{' '}
+            and other students.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
@@ -299,7 +284,7 @@ const Home = () => {
               href="/quests"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
-              colorScheme="green"
+              colorScheme="blue"
             >
               Quest Log
             </Button>
@@ -337,7 +322,7 @@ const Home = () => {
               <Link href="https://github.com/Allicai" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="green"
+                  colorScheme="blue"
                   leftIcon={<IoLogoGithub />}
                 >
                   Allicai
@@ -351,7 +336,7 @@ const Home = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme={'green'}
+                  colorScheme={'blue'}
                   leftIcon={<IoLogoLinkedin />}
                 >
                   Vinit Patel
@@ -362,7 +347,7 @@ const Home = () => {
               <Link href="mailto:vinitp0310@gmail.com" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="green"
+                  colorScheme="blue"
                   leftIcon={<EmailIcon />}
                 >
                   vinitp0310@gmail.com

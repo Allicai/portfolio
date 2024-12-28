@@ -7,7 +7,7 @@ const BlogPost = () => {
   return (
     <Layout title="Create-ive">
       <Container maxW="container.md">
-        <Heading as="h1" size="xl" mb={4} color="green.300">
+        <Heading as="h1" size="xl" mb={4} color="blue.300">
           An Urge to
           <Text as="span" color="purple.300" display="inline">
             {' '}
@@ -20,7 +20,7 @@ const BlogPost = () => {
         </Text>
         <Text fontSize="md" mb={4}>
           My love for creating started small — a simple{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             painting of a tree
           </Text>{' '}
           in elementary school. It wasn&apos;t groundbreaking, but it made my
@@ -64,7 +64,7 @@ const BlogPost = () => {
           thinking it was so easy to make people happy with art. Heck, all it
           took was a tree and my parents were beaming with pride. I was hooked,
           I wanted to {''}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             draw
           </Text>
           .
@@ -79,7 +79,7 @@ const BlogPost = () => {
           year. It was another time my parents overcelebrated my
           accomplishments, but I remember them smiling - and so, my
           understanding of what I could do to make people happy grew. I could{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             craft
           </Text>
           .
@@ -91,7 +91,7 @@ const BlogPost = () => {
           seemingly useless skills. I pursued drawing, made shelves and cabinets
           in the garage with my Dad&apos;s tools, and began to truly consider a
           career as an engineer. I had developed the ability and the passion to{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             create
           </Text>
           .
@@ -120,19 +120,19 @@ const BlogPost = () => {
           I&apos;m not saying everyone should be a master of all trades, but I
           never understand people who say they can&apos;t do something because
           they&apos;re not good at it. You never{' '}
-          <Text as="b" color="green.500" display="inline">
+          <Text as="b" color="blue.500" display="inline">
             tried
           </Text>
           . What if you&apos;re a{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             natural
           </Text>
           ? What if you&apos;re the{' '}
-          <Text as="b" color="green.300" display="inline">
+          <Text as="b" color="blue.300" display="inline">
             best in the world
           </Text>{' '}
           at it? What if you{' '}
-          <Text as="b" color="green.200" display="inline">
+          <Text as="b" color="blue.200" display="inline">
             love
           </Text>{' '}
           it?{' '}
@@ -165,7 +165,7 @@ const BlogPost = () => {
           fontSize="lg"
           color="gray.500"
           borderLeft="4px solid"
-          borderColor="green.400"
+          borderColor="blue.400"
           pl={4}
           py={2}
           mb={6}
@@ -176,17 +176,17 @@ const BlogPost = () => {
 
         <Text fontSize="md" mb={4}>
           ... and I&apos;m no master. So please,{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             try
           </Text>
           . Watch a tutorial, ask questions,{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             LEARN SOMETHING
           </Text>
           . Make use of the resources we have today. I always joke that Google
           is free <Text as="b">for now</Text>, someday we&apos;ll appreciate
           that fact. The world is at your fingertips, and you can make{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             anything you want
           </Text>
           . You just have to sacrifice a little time to learn how. I believe
@@ -203,7 +203,7 @@ const BlogPost = () => {
           </Text>
           . I believe people can discover new interests and passions from very
           simple things. Even just a{' '}
-          <Text as="b" color="green.400" display="inline">
+          <Text as="b" color="blue.400" display="inline">
             {' '}
             painting of a tree
           </Text>

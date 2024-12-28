@@ -20,7 +20,7 @@ const Blogs = () => (
         />
       </Flex>
       <Flex align="center" justify="center" mb={2}>
-        <Text as="h1" fontSize="4xl" mr={2} color={'green.200'}>
+        <Text as="h1" fontSize="4xl" mr={2} color={'blue.200'}>
           Quest Log
         </Text>
       </Flex>
@@ -38,14 +38,14 @@ const Blogs = () => (
                 borderWidth="1px"
                 borderRadius="lg"
                 borderColor='gray.100'
-                _hover={{ bg: 'green.800' }}
+                _hover={{ bg: 'blue.800' }}
               >
-                <Text fontSize="md" color="green.200" fontStyle="italic">
+                <Text fontSize="md" color="blue.200" fontStyle="italic">
                   {blog.id}
                 </Text>
-                <Text fontSize="md" fontWeight="bold" color="green.300">
+                <Text fontSize="md" fontWeight="bold" color="blue.300">
                   {blog.title}</Text>
-                <Text fontSize="md" color="green.400">
+                <Text fontSize="md" color="blue.400">
                 {blog.topic}
                 </Text>
               </Flex>

@@ -34,7 +34,7 @@ const Logo = () => {
           mr={4}
         />
         <Text
-          color={useColorModeValue('gray.800', 'green.200')}
+          color={useColorModeValue('gray.800', 'blue.200')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
           ml={4}
