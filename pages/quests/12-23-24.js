@@ -12,7 +12,7 @@ const BlogPost = () => {
         </Heading>
 
         <Text fontSize="lg" color="gray.400" mb={6}>
-          December 4, 2024
+          December 23, 2024
         </Text>
 
         <Flex align="center" justify="center">

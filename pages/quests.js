@@ -4,8 +4,8 @@ import Section from '../components/section'
 import Link from 'next/link'
 
 const blogs = [
-  { id: '12-04-24', title: 'Snowflake❄️', topic: 'Reflections' }, 
-  { id: '10-26-24', title: 'An Urge to Create', topic: 'Reflections' }
+  { id: '12-23-24', title: 'Snowflake❄️', topic: 'Reflections' }, 
+  { id: '10-26-24', title: 'You Should Try', topic: 'Reflections' }
 ]
 
 const Blogs = () => (
