@@ -56,7 +56,7 @@ const BlogPost = () => {
           py={2}
           mb={6}
         >
-          "The master has failed more times than the beginner has tried."
+          &quot;The master has failed more times than the beginner has tried.&quot;
         </Box>
 
         <Text fontSize="md" mb={4}>
