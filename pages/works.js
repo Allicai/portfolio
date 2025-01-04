@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbML from '../public/images/works/distilbert.png'
-import thumbPoker from '../public/images/works/poker.png'
+import thumbChorely from '../public/images/works/chorely.jpg'
 // import thumbSnake from '../public/images/works/snake.png'
 import thumbStark from '../public/images/works/vini_stark.png'
 import thumbRPS from '../public/images/works/rps.png'
@@ -69,13 +69,9 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="poker"
-            title="Computer Vision Poker"
-            thumbnail={thumbPoker}
-          >
-            [CURRENTLY IN PROGRESS] <br /> Computer vision and OOP in C++,
-            aiming to emphasize real-time game interactions.
+          <WorkGridItem id="chorely" title="Chorely" thumbnail={thumbChorely}>
+            [CURRENTLY IN PROGRESS] <br /> Mobile app that gamifies chores for
+            roommates to encourage productivity and communication!
           </WorkGridItem>
         </Section>
       </SimpleGrid>

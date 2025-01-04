@@ -13,12 +13,12 @@ import {
   // import P from '../../components/paragraph'
   
   const Projects = () => (
-    <Layout title="CV Poker">
+    <Layout title="Chorely">
       <Container>
         <Title>
-          Computer Vision Poker {' '}
-          <Badge>Computer Vision</Badge> {' '}
-          <Badge>OOP</Badge>
+          Chorely {' '}
+          <Badge>Mobile App</Badge> {' '}
+          <Badge>Full Stack</Badge>
         </Title>
         <Center my={6}>
         <Image src="/images/works/vin_cook.png" alt="banner" boxSize = "200px" />
@@ -26,7 +26,7 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Skills</Meta>
-            <span>Node.js, Express, Docker, OpenCV, C++</span>
+            <span>JavaScript (TypeScript), React Native, Firebase</span>
           </ListItem>
           <ListItem>
             <Meta>Progress</Meta>
