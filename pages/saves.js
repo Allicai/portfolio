@@ -4,48 +4,47 @@ import Section from '../components/section'
 import Link from 'next/link'
 
 const blogs = [
-  { id: '12-23-24', title: 'Snowflake❄️', topic: 'Reflections' }, 
-  { id: '10-26-24', title: 'You Should Try', topic: 'Reflections' }
+  { id: '1-13-25', title: 'Snowflake❄️', topic: 'Internship' }, 
+  { id: '12-11-24', title: 'You Should Try', topic: 'Reflections' }
 ]
 
 const Blogs = () => (
-  <Layout title="Side Quests">
+  <Layout title="Save Files">
     <Container>
-      <Flex align="center" justify="center">
-        <Image
-          src="/images/poke_walk.gif"
-          alt="Quest GIF"
-          width="60px"
-          height="60px"
-        />
-      </Flex>
+
       <Flex align="center" justify="center" mb={2}>
-        <Text as="h1" fontSize="4xl" mr={2} color={'blue.200'}>
-          Quest Log
+        <Text as="h1" fontSize="4xl" mr={2} color={'green.500'}>
+          Save Files
         </Text>
       </Flex>
       <SimpleGrid columns={1} gap={0}>
         {' '}
         {blogs.map(blog => (
           <Section delay={0.1} key={blog.id}>
-            <Link href={`/quests/${blog.id}`} passHref>
+            <Link href={`/saves/${blog.id}`} passHref>
               <Flex
                 as="a"
                 direction="row"
                 align="center"
                 justify="space-between"
                 p={2}
+                bg="black"
                 borderWidth="1px"
                 borderRadius="lg"
                 borderColor='gray.100'
-                _hover={{ bg: 'blue.800' }}
+                _hover={{
+                  bg: 'green.600',
+                  cursor: 'pointer',
+                  transform: 'scale(1.05)',
+                  transition: 'transform 0.2s',
+                }}
               >
-                <Text fontSize="md" color="blue.200" fontStyle="italic">
+                <Text fontSize="md" color="green.200" fontStyle="italic">
                   {blog.id}
                 </Text>
-                <Text fontSize="md" fontWeight="bold" color="blue.300">
+                <Text fontSize="md" fontWeight="bold" color="green.300">
                   {blog.title}</Text>
-                <Text fontSize="md" color="blue.400">
+                <Text fontSize="md" color="green.200">
                 {blog.topic}
                 </Text>
               </Flex>

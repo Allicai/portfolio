@@ -15,14 +15,18 @@ const BlogPost = () => {
           December 23, 2024
         </Text>
 
+        <Text fontSize="md" mb={4}>
+          
+        </Text>
+
         <Flex align="center" justify="center">
-        <Image
-          src="/images/works/vin_cook.png"
-          alt="Writing"
-          width="250"
-          height="250"
-        />
-      </Flex>
+          <Image
+            src="/images/works/vin_cook.png"
+            alt="Writing"
+            width="250"
+            height="250"
+          />
+        </Flex>
       </Container>
     </Layout>
   )

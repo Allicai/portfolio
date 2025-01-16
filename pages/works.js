@@ -12,9 +12,9 @@ import thumbCollage from '../public/images/works/mvc_collage.png'
 import thumbHSR from '../public/images/works/hsr.png'
 import Image from 'next/image'
 const Works = () => (
-  <Layout title="Works">
+  <Layout title="Projects">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4} color={'blue.300'}>
+      <Heading as="h3" fontSize={25} mb={4} color={'blue.300'}>
         Projects
       </Heading>
 

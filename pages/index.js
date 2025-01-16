@@ -25,12 +25,12 @@ import { useState, useEffect } from 'react'
 // import Script from 'next/script'
 
 const rotatingTexts = [
-  'an undergraduate student at Northeastern University!',
-  'a creative artist!',
-  'a passionate sports fan!',
-  'an avid reader!',
-  'a growing software engineer!',
-  'a self-motivated learner!'
+  " am a student at Northeastern University!",
+  " am a creative artist!",
+  "'m a passionate sports fan! Visca el Barça!",
+  "'m an avid reader!",
+  " am aiming to be a software engineer!",
+  "'m a competitive tennis player!"
 ]
 
 const Home = () => {
@@ -59,7 +59,7 @@ const Home = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          I&apos;m {currentText}
+          I{currentText}
         </Box>
 
         <Box display="flex" flexDirection="column" alignItems="center">
@@ -100,9 +100,10 @@ const Home = () => {
             Bachelor of Science in Computer Science concentrated in AI and ML at
             Northeastern University! I entered college with the intention of
             becoming an electrical/computer engineer but quickly fell in love
-            with algorithms, artificial intelligence, and machine learning and
-            the vast applications they have in the real world. Recently, I was a
-            Software Engineer co-op at Snowflake, working on AI/ML solutions!
+            with algorithms, artificial intelligence, and machine learning along
+            with their vast applications to real world use cases. Recently, I
+            was a Software Engineer co-op at Snowflake, working on AI/ML
+            solutions!
           </Paragraph>
           <Paragraph>
             My current focus is to grow professionally and personally through
@@ -135,14 +136,6 @@ const Home = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2016</BioYear>
-            🎾Began coaching tennis at Carefree Racquet Club.
-          </BioSection>
-          <BioSection>
-            <BioYear>2017</BioYear>
-            🩺Volunteered 150+ hours at NUMC, a local hospital.
-          </BioSection>
-          <BioSection>
             <BioYear>2017</BioYear>
             🏛️Invited to attend the{' '}
             <Link
@@ -171,24 +164,16 @@ const Home = () => {
             .
           </BioSection>
           <BioSection>
+            <BioYear>2021</BioYear>
+            🏫Began attending Northeastern University in Boston, MA.
+          </BioSection>
+          <BioSection>
             <BioYear>2022</BioYear>
             🛩️Software Engineer for{' '}
             <Link href="https://www.aerospacenu.com/nuav" target="_blank">
               AerospaceNU&apos;s drone team
             </Link>
             .
-          </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
-            🎨Drew some{' '}
-            <Link
-              href="/images/create-ive.png"
-              target="_blank"
-              colorScheme={'teal'}
-            >
-              chibi art for friends
-            </Link>{' '}
-            and other students.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
@@ -235,14 +220,15 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            ❄️Software Engineer co-op at Snowflake -{' '}
-            <Link href="https://www.snowflake.com/en/developers/solutions-center/aggregating-product-data-with-snowflake-cortex-notebooks/">
-              certified solution!
-            </Link>
+            ❄️Snowflake Software Engineer co-op - AI/ML solutions.
+          </BioSection>
+          <BioSection>
+            <BioYear>2025</BioYear>
+            📦Amazon Robotics Software Development Engineer co-op.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            🚀Pursuing another internship or co-op experience!
+            🔍Pursuing full-time job offers - software and AI/ML!
           </BioSection>
         </Section>
 
@@ -250,46 +236,58 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             I♥
           </Heading>
-          <Text>
-            <Link href="/images/collage.jpg" target="_blank" colorScheme="teal">
-              Tennis
-            </Link>
-            ,{' '}
-            <Link href="/images/soccer.png" target="_blank" colorScheme="teal">
-              Soccer
-            </Link>
-            ,{' '}
-            <Link
-              href="https://www.goodreads.com/book/show/15839976-red-rising"
-              target="_blank"
-              colorScheme="teal"
-            >
-              Reading
-            </Link>
-            ,{' '}
-            <Link
-              href="/images/niagara.jpeg"
-              target="_blank"
-              colorScheme="teal"
-            >
-              Photography
-            </Link>
-            , Drawing/Design, Gaming.
-            <br />
-          </Text>
-          <br></br>
-          <Text>
-            To see more on my thoughts & interests, check out my side quests!
-          </Text>
+          <Box align="center" my={4}>
+            <Text>
+              <Link
+                href="/images/collage.jpg"
+                target="_blank"
+                colorScheme="teal"
+              >
+                Tennis
+              </Link>
+              ,{' '}
+              <Link
+                href="/images/soccer.png"
+                target="_blank"
+                colorScheme="teal"
+              >
+                Soccer
+              </Link>
+              ,{' '}
+              <Link
+                href="https://www.goodreads.com/book/show/15839976-red-rising"
+                target="_blank"
+                colorScheme="teal"
+              >
+                Reading
+              </Link>
+              ,{' '}
+              <Link
+                href="/images/niagara.jpeg"
+                target="_blank"
+                colorScheme="teal"
+              >
+                Photography
+              </Link>
+              , Drawing/Design, Gaming.
+              <br />
+            </Text>
+          </Box>
+          <Box align="center" my={4}>
+            <Text>
+              You can read about more of my interests, blog posts and advice for
+              students, and reflections on my experiences by clicking below!
+            </Text>
+          </Box>
           <Box align="center" my={4}>
             <Button
               as={NextLink}
-              href="/quests"
+              href="/saves"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
               colorScheme="blue"
             >
-              Quest Log
+              Save Files
             </Button>
           </Box>
         </Section>

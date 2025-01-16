@@ -84,8 +84,8 @@ const Navbar = props => {
             Projects
           </LinkItem>
           
-          <LinkItem href="/quests" path={path}>
-            Quest Log
+          <LinkItem href="/saves" path={path}>
+            Save Files
           </LinkItem>
          
           <LinkItem
@@ -122,8 +122,8 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Projects
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/quests">
-                  Quest Log
+                <MenuItem as={MenuLink} href="/saves">
+                  Save Files
                 </MenuItem>
                 <MenuItem as={Link} href="https://github.com/Allicai/portfolio">
                   View Source

@@ -16,9 +16,7 @@ const Projects = () => (
   <Layout title="Vinny Stark">
     <Container>
       <Title>
-        Vinny Stark {' '}
-        <Badge>Computer Vision</Badge> {' '}
-        <Badge></Badge>
+        Vinny Stark <Badge>Computer Vision</Badge> <Badge></Badge>
       </Title>
       <List ml={4} my={4}>
         <ListItem>
@@ -30,23 +28,22 @@ const Projects = () => (
           <span>In Progress</span>
         </ListItem>
       </List>
-             
+
       <P>
-        This project is a set of computer vision scripts that are activated via different gestures, toggling between a mode where I can control
-        settings such as brightness, volume, playback, etc. and one where I can control the mouse, dragging and clicking as needed.
-        
+        This project is a set of computer vision scripts that are activated via
+        different gestures, toggling between a mode where I can control settings
+        such as brightness, volume, playback, etc. and one where I can control
+        the mouse, dragging and clicking as needed.
       </P>
 
       <Center my={6}>
-        <Image src="/images/works/vin_cook.png" alt="banner" boxSize = "200px" />
+        <Image src="/images/works/vin_cook.png" alt="banner" boxSize="200px" />
       </Center>
 
       <P>
-      The scripts
-      use PyAutoGUI to simulate keyboard and mouse inputs, and OpenCV through mediapipe to detect gestures.
+        The scripts use PyAutoGUI to simulate keyboard and mouse inputs, and
+        OpenCV through mediapipe to detect gestures.
       </P>
-       
-
     </Container>
   </Layout>
 )
