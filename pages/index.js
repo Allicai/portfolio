@@ -104,7 +104,7 @@ const Home = () => {
             algorithms, artificial intelligence, and machine learning along with
             their vast applications to real world use cases. Recently, I was a
             Software Engineer co-op at{' '}
-            <span style={{ color: '#63b3ed' }}>Snowflake</span>, where I
+            <span style={{ color: '#00bbff' }}>Snowflake</span>, where I
             polished my skills in machine learning and artificial intelligence.
             Now as 2025 begins, I&apos;m joining{' '}
             <span style={{ color: '#FF9900' }}>Amazon</span> as a Software
@@ -159,49 +159,29 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            👟Completed 3 years of{' '}
+            👟Completed 3 years of ballboying at the{' '}
             <Link
               href="https://www.usopen.org/en_US/content/us_open_ball_crew.html"
               target="_blank"
             >
-              ballboying at the US Open
+              US Open
             </Link>
             .
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            🏫Began attending <span style={{ color: '#D41B2C' }}>Northeastern University</span> in Boston, MA.
+            🏫Began attending Northeastern University in Boston, MA.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🛩️Software Engineer for{' '}
-            <Link href="https://www.aerospacenu.com/nuav" target="_blank">
-              AerospaceNU&apos;s drone team
-            </Link>
-            .
-          </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
-            🛍️Helped a friend create a{' '}
             <Link
-              href="https://hoosky.store/"
+              href="https://www.aerospacenu.com/nuav"
               target="_blank"
-              colorScheme={'teal'}
+              color="#ffea5e"
             >
-              NEU student clothing store
-            </Link>
-            .
-          </BioSection>
-          <BioSection>
-            <BioYear>2023</BioYear>
-            🏎️Mechanical engineer for{' '}
-            <Link
-              href="https://electricracing.northeastern.edu/"
-              target="_blank"
-            >
-              Northeastern Electric Racing
-            </Link>
-            .
+              🛸AerospaceNU
+            </Link>{' '}
+            Software Engineer - computer vision drone.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
@@ -209,31 +189,45 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            📊<span style={{ color: '#7d6de3' }}>Mobalytics</span> Data Analytics intern - market strategies.
+            <Link
+              href="https://mobalytics.gg/"
+              target="_blank"
+              color={'#7d6de3'}
+            >
+              🕹️Mobalytics
+            </Link>{' '}
+            Data Analyst - NLP for market strategies.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🖼️Created sprite art for a Pokemon ROM Hack.
-          </BioSection>
-          <BioSection>
-            <BioYear>2024</BioYear>
-            💡Software Specialist at{' '}
-            <Link href="https://www.forgenu.com/home" target="_blank">
-              Forge
+            <Link
+              href="https://www.forgenu.com/home"
+              target="_blank"
+              color="#67f58f"
+            >
+              🧪Forge
             </Link>
-            , a product development lab.
+            &apos;s Software Specialist - product development lab.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            ❄️<span style={{ color: '#63b3ed' }}>Snowflake</span> Software Engineer co-op - AI/ML solutions.
-          </BioSection>
-          <BioSection>
-            <BioYear>2025</BioYear>
-            📦<span style={{ color: '#FF9900' }}>Amazon</span> co-op - ML and computer vision for robotics.
+            <Link
+              href="https://www.snowflake.com/en/developers/solutions-center/aggregating-product-data-with-snowflake-cortex-notebooks/"
+              target="_blank"
+              color={'#00bbff'}
+            >
+              ❄️Snowflake
+            </Link>{' '}
+            Software Engineer Co-Op - AI/ML solutions.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            🔍Pursuing full-time job offers in software, AI and ML!
+            📦<span style={{ color: '#FF9900' }}>Amazon SDE Intern</span> - ML
+            and computer vision for robotics.
+          </BioSection>
+          <BioSection>
+            <BioYear>Now</BioYear>
+            🔍Seeking full-time job offers in software, AI and ML!
           </BioSection>
         </Section>
 
