@@ -25,11 +25,11 @@ import { useState, useEffect } from 'react'
 // import Script from 'next/script'
 
 const rotatingTexts = [
-  " am a student at Northeastern University!",
-  " am a creative artist!",
+  ' am a student at Northeastern University!',
+  ' am a creative artist!',
   "'m a passionate sports fan! Visca el Barça!",
   "'m an avid reader!",
-  " am aiming to be a software engineer!",
+  ' am aiming to be a software engineer!',
   "'m a competitive tennis player!"
 ]
 
@@ -97,26 +97,31 @@ const Home = () => {
           </Heading>
           <Paragraph>
             I&apos;m a dynamic software engineer/computer scientist pursuing a
-            Bachelor of Science in Computer Science concentrated in AI and ML at
-            Northeastern University! I entered college with the intention of
-            becoming an electrical/computer engineer but quickly fell in love
-            with algorithms, artificial intelligence, and machine learning along
-            with their vast applications to real world use cases. Recently, I
-            was a Software Engineer co-op at Snowflake, working on AI/ML
-            solutions!
-          </Paragraph>
-          <Paragraph>
-            My current focus is to grow professionally and personally through
-            work experience and gain exposure to more industries as I prepare
-            for a full-time career. I&apos;m also working on projects involving
-            computer vision, and teaching myself JavaScript (TypeScript) and
-            React.
+            Bachelor of Science in Computer Science concentrated in AI and ML at{' '}
+            <span style={{ color: '#D41B2C' }}>Northeastern University</span>! I
+            entered college with the intention of becoming an
+            electrical/computer engineer but quickly fell in love with
+            algorithms, artificial intelligence, and machine learning along with
+            their vast applications to real world use cases. Recently, I was a
+            Software Engineer co-op at{' '}
+            <span style={{ color: '#63b3ed' }}>Snowflake</span>, where I
+            polished my skills in machine learning and artificial intelligence.
+            Now as 2025 begins, I&apos;m joining{' '}
+            <span style={{ color: '#FF9900' }}>Amazon</span> as a Software
+            Development Engineer co-op where I&apos;ll be working on computer
+            vision for robotics!
           </Paragraph>
           <Paragraph>
             In my free time I enjoy sketching at local cafés, playing soccer and
             tennis at Northeastern&apos;s Carter Field, and exploring Boston
             with friends! I&apos;ve also joined a team to develop a Pokemon ROM
             Hack game where I&apos;m creating sprite art and designing maps!
+          </Paragraph>
+          <Paragraph>
+            I&apos;m always looking for new opportunities to learn; my current
+            focus is to grow personally and professionally as I begin to aim for
+            full-time positions. I&apos;m excited to see where my journey takes
+            me!
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -165,7 +170,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            🏫Began attending Northeastern University in Boston, MA.
+            🏫Began attending <span style={{ color: '#D41B2C' }}>Northeastern University</span> in Boston, MA.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
@@ -183,7 +188,7 @@ const Home = () => {
               target="_blank"
               colorScheme={'teal'}
             >
-              NU student clothing store
+              NEU student clothing store
             </Link>
             .
           </BioSection>
@@ -200,11 +205,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            📚Teaching assistant for NU&apos;s Algorithms & OOD courses.
+            📚Teaching assistant for NEU&apos;s Algorithms & OOD courses.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            📊Data Analytics intern at Mobalytics - market strategies.
+            📊<span style={{ color: '#7d6de3' }}>Mobalytics</span> Data Analytics intern - market strategies.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
@@ -220,15 +225,15 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            ❄️Snowflake Software Engineer co-op - AI/ML solutions.
+            ❄️<span style={{ color: '#63b3ed' }}>Snowflake</span> Software Engineer co-op - AI/ML solutions.
           </BioSection>
           <BioSection>
             <BioYear>2025</BioYear>
-            📦Amazon Robotics Software Development Engineer co-op.
+            📦<span style={{ color: '#FF9900' }}>Amazon</span> co-op - ML and computer vision for robotics.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            🔍Pursuing full-time job offers - software and AI/ML!
+            🔍Pursuing full-time job offers in software, AI and ML!
           </BioSection>
         </Section>
 

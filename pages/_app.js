@@ -45,8 +45,6 @@ function Website({ Component, pageProps, router }) {
         '#FFFFFF',
         '#FFFFFF',
         '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
         '#FFFFFF'
       ];
 
@@ -82,27 +80,6 @@ function Website({ Component, pageProps, router }) {
       }
 
       animateCircles();
-
-      // Adjust transparency on hover over text
-      const textElements = document.querySelectorAll('p, h1, h2, h3, a, span, strong'); // You can adjust these to target other text elements
-
-      textElements.forEach((element) => {
-        element.addEventListener('mouseenter', () => {
-          circles.forEach((circle) => {
-            circle.style.transition = 'opacity 0.3s ease';
-            circle.style.opacity = '0.1'; // Adjust the transparency level here
-            circle.style.borderColor = 'rgba(255, 255, 255, 0.3)'; // Adjust border transparency
-          });
-        });
-
-        element.addEventListener('mouseleave', () => {
-          circles.forEach((circle) => {
-            circle.style.transition = 'opacity 0.3s ease';
-            circle.style.opacity = '1'; // Reset opacity
-            circle.style.borderColor = 'rgba(255, 255, 255, 1)'; // Reset border color
-          });
-        });
-      });
     }
   }, []);
 
