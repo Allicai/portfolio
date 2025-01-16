@@ -1,4 +1,4 @@
-import { Container, Text, SimpleGrid, Flex, Image } from '@chakra-ui/react'
+import { Container, Text, SimpleGrid, Flex } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Link from 'next/link'
