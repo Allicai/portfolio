@@ -200,7 +200,7 @@ const Home = () => {
             >
               Forge
             </Link>{' '}
-            - NEU's product dev lab.
+            - NEU&apos;s product dev lab.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
