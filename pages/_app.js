@@ -8,9 +8,6 @@ import { useEffect } from 'react'
 import '../styles/globals.css'
 
 
-if (typeof window !== 'undefined') {
-  window.history.scrollRestoration = 'manual'
-}
 
 function Website({ Component, pageProps, router }) {
 
@@ -24,28 +21,36 @@ function Website({ Component, pageProps, router }) {
       const circles = document.querySelectorAll(".circle");
 
       const colors = [
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF',
-        '#FFFFFF'
+        '#ABABAB',
+        '#A6A6A6',
+        '#A1A1A1',
+        '#9C9C9C',
+        '#979797',
+        '#929292',
+        '#8D8D8D',
+        '#888888',
+        '#838383',
+        '#7E7E7E',
+        '#797979',
+        '#747474',
+        '#6F6F6F',
+        '#6A6A6A',
+        '#656565',
+        '#606060',
+        '#5B5B5B',
+        '#565656',
+        '#515151',
+        '#4C4C4C',
+        '#474747',
+        '#424242',
+        '#3D3D3D',
+        '#383838',
+        '#333333',
+        '#2E2E2E',
+        '#292929',
+        '#242424',
+        '#1F1F1F',
+        '#1A1A1A'
       ];
 
       circles.forEach((circle, index) => {

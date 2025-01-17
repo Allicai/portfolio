@@ -97,19 +97,15 @@ const Home = () => {
           </Heading>
           <Paragraph>
             I&apos;m a dynamic software engineer/computer scientist pursuing a
-            Bachelor of Science in Computer Science concentrated in AI and ML at{' '}
-            <span style={{ color: '#D41B2C' }}>Northeastern University</span>! I
-            entered college with the intention of becoming an
-            electrical/computer engineer but quickly fell in love with
-            algorithms, artificial intelligence, and machine learning along with
-            their vast applications to real world use cases. Recently, I was a
-            Software Engineer co-op at{' '}
-            <span style={{ color: '#00bbff' }}>Snowflake</span>, where I
-            polished my skills in machine learning and artificial intelligence.
-            Now as 2025 begins, I&apos;m joining{' '}
-            <span style={{ color: '#FF9900' }}>Amazon</span> as a Software
-            Development Engineer co-op where I&apos;ll be working on computer
-            vision for robotics!
+            Bachelor of Science in Computer Science concentrated in AI and ML at
+            Northeastern University! I entered college with the intention of
+            becoming an electrical/computer engineer but quickly fell in love
+            with algorithms, artificial intelligence, and machine learning along
+            with their vast applications to real world use cases. Recently, I
+            was a Software Engineer co-op at Snowflake, and I&apos;ve now joined
+            Amazon as a Software Development Engineer co-op where I&apos;ll be
+            working in machine learning, robotics and warehouse management
+            software!
           </Paragraph>
           <Paragraph>
             In my free time I enjoy sketching at local cafés, playing soccer and
@@ -149,17 +145,11 @@ const Home = () => {
             >
               {' '}
               presidential inauguration
-            </Link>{' '}
-            and met{' '}
-            <Link href="https://malala.org/malalas-story" target="_blank">
-              {' '}
-              Malala Yousafzai
-            </Link>{' '}
-            along with several members of Congress.
+            </Link>{' '} in person.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            👟Completed 3 years of ballboying at the{' '}
+            🌞Completed 3 years of ballboying at the{' '}
             <Link
               href="https://www.usopen.org/en_US/content/us_open_ball_crew.html"
               target="_blank"
@@ -174,14 +164,15 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
+            🛸Software Engineer for {' '}
             <Link
               href="https://www.aerospacenu.com/nuav"
               target="_blank"
-              color="#ffea5e"
+              color="gray.500"
             >
-              🛸AerospaceNU
+              AerospaceNU
             </Link>{' '}
-            Software Engineer - computer vision drone.
+             - computer vision.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
@@ -189,41 +180,44 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
+            🕹️Data Analyst for {' '}
             <Link
               href="https://mobalytics.gg/"
               target="_blank"
               color={'#7d6de3'}
             >
-              🕹️Mobalytics
+              Mobalytics
             </Link>{' '}
-            Data Analyst - NLP for market strategies.
+            - NLP for market strategies.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
+            🖥️Software Specialist for {' '}
             <Link
               href="https://www.forgenu.com/home"
               target="_blank"
-              color="#67f58f"
+              color="orange"
             >
-              🧪Forge
-            </Link>
-            &apos;s Software Specialist - product development lab.
+              Forge
+            </Link>{' '}
+            - NEU's product dev lab.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
+            ❄️Software Engineer Co-Op at {' '}
             <Link
               href="https://www.snowflake.com/en/developers/solutions-center/aggregating-product-data-with-snowflake-cortex-notebooks/"
               target="_blank"
               color={'#00bbff'}
             >
-              ❄️Snowflake
+              Snowflake
             </Link>{' '}
-            Software Engineer Co-Op - AI/ML solutions.
+            - AI/ML solutions.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            📦<span style={{ color: '#FF9900' }}>Amazon SDE Intern</span> - ML
-            and computer vision for robotics.
+            📦SDE Intern at <span style={{ color: 'orange' }}>Amazon</span> -
+            machine learning and robotics.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
