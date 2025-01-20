@@ -14,7 +14,7 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
-      <meta property="og:title" content="Vin's Room" />
+      <meta property="og:title" content="Vinit Patel" />
       <meta property="og:description" content="Vinit Patel - Homepage" />
       <meta property="og:image" content="https://vinitp0310.vercel.app/vin_room.jpg" />
       <meta property="og:url" content="https://vinitp0310.vercel.app/" />
