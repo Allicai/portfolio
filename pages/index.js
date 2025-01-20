@@ -103,9 +103,7 @@ const Home = () => {
             with algorithms, artificial intelligence, and machine learning along
             with their vast applications to real world use cases. Recently, I
             was a Software Engineer co-op at Snowflake, and I&apos;ve now joined
-            Amazon as a Software Development Engineer co-op where I&apos;ll be
-            working in machine learning, robotics and warehouse management
-            software!
+            Amazon as a Software Development Engineer co-op!
           </Paragraph>
           <Paragraph>
             In my free time I enjoy sketching at local cafés, playing soccer and
