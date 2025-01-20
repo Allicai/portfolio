@@ -15,15 +15,15 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Vinit's homepage" />
-        <meta name="author" content="Vinit Patel" />
+        <meta name="description" content="Vinit's Homepage" />
         <meta name="author" content="Allicai" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/iso_icon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Vinit Patel" />
         <meta name="og:title" content="Vinit Patel" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="chibi.jpg" />
+        <meta property="og:url" content="https://vinitp0310.vercel.app/" />
+        <meta property="og:image" content="https://vinitp0310.vercel.app/vin_room.jpg" />
         <title>Vinit Patel - Homepage</title>
       </Head>
 

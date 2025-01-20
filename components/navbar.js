@@ -87,7 +87,7 @@ const Navbar = props => {
           <LinkItem href="/saves" path={path}>
             Save Files
           </LinkItem>
-         
+         {/* 
           <LinkItem
             target="_blank"
             href="https://github.com/Allicai/portfolio"
@@ -100,6 +100,7 @@ const Navbar = props => {
             <IoLogoGithub />
             Source
           </LinkItem>
+          */}
         </Stack>
 
         <Box flex={1} align="right">
