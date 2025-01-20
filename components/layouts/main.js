@@ -21,6 +21,7 @@ const Main = ({ children, router }) => {
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Vin's Room" />
       <link rel="shortcut icon" href="/iso_icon.ico" type="image/x-icon" />
+      <title>Vin's Room</title>
 
       </Head>
 
