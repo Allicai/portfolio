@@ -214,8 +214,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            📦SDE Intern at <span style={{ color: 'orange' }}>Amazon</span> -
-            machine learning and robotics.
+            📦SDE Intern at <span style={{ color: 'orange' }}>Amazon</span>!
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
