@@ -13,7 +13,7 @@ const Blogs = () => (
     <Container>
 
       <Flex align="center" justify="center" mb={2}>
-        <Text as="h1" fontSize="4xl" mr={2} color={'green.500'}>
+        <Text as="h1" fontSize="4xl" mr={2} color={'blue.500'}>
           Save Files
         </Text>
       </Flex>
@@ -33,18 +33,18 @@ const Blogs = () => (
                 borderRadius="lg"
                 borderColor='gray.100'
                 _hover={{
-                  bg: 'green.600',
+                  bg: 'blue.600',
                   cursor: 'pointer',
                   transform: 'scale(1.05)',
                   transition: 'transform 0.2s',
                 }}
               >
-                <Text fontSize="md" color="green.200" fontStyle="italic">
+                <Text fontSize="md" color="blue.200" fontStyle="italic">
                   {blog.id}
                 </Text>
-                <Text fontSize="md" fontWeight="bold" color="green.300">
+                <Text fontSize="md" fontWeight="bold" color="blue.300">
                   {blog.title}</Text>
-                <Text fontSize="md" color="green.200">
+                <Text fontSize="md" color="blue.200">
                 {blog.topic}
                 </Text>
               </Flex>
