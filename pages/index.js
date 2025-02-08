@@ -100,22 +100,17 @@ const Home = () => {
             Bachelor of Science in Computer Science concentrated in AI and ML at
             Northeastern University! I entered college with the intention of
             becoming an electrical/computer engineer but quickly fell in love
-            with algorithms, artificial intelligence, and machine learning along
-            with their vast applications to real world use cases. Recently, I
-            was a Software Engineer co-op at Snowflake, and I&apos;ve now joined
-            Amazon as a Software Development Engineer co-op!
+            with algorithms, AI, and machine learning along with their vast
+            applications to real world use cases. Recently, I was a Software
+            Engineer intern at Snowflake, and I&apos;m now an SDE co-op at
+            Amazon!
           </Paragraph>
           <Paragraph>
-            In my free time I enjoy sketching at local cafés, playing soccer and
-            tennis at Northeastern&apos;s Carter Field, and exploring Boston
-            with friends! I&apos;ve also joined a team to develop a Pokemon ROM
-            Hack game where I&apos;m creating sprite art and designing maps!
-          </Paragraph>
-          <Paragraph>
-            I&apos;m always looking for new opportunities to learn; my current
-            focus is to grow personally and professionally as I begin to aim for
-            full-time positions. I&apos;m excited to see where my journey takes
-            me!
+            In my free time I enjoy playing soccer and tennis, sketching at
+            local cafés, and exploring Boston with friends! I&apos;m always
+            looking for new opportunities to learn; my current focus is to grow
+            personally and professionally as I begin to aim for full-time
+            positions. I&apos;m excited to see where my journey takes me!
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -136,89 +131,50 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2017</BioYear>
-            🏛️Invited to attend the{' '}
-            <Link
-              href="https://www.usta.com/content/dam/usta/sections/eastern/pdfs/regions/li_march_2017.pdf#page=4"
-              target="_blank"
-            >
-              {' '}
-              presidential inauguration
-            </Link>{' '} in person.
+            Invited to attend the presidential inauguration in person.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            🌞Completed 3 years of ballboying at the{' '}
-            <Link
-              href="https://www.usopen.org/en_US/content/us_open_ball_crew.html"
-              target="_blank"
-            >
-              US Open
-            </Link>
-            .
+            Completed 3 years of ballboying at the U.S. Open.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            🏫Began attending Northeastern University in Boston, MA.
+            Began attending 🏫Northeastern University in Boston, MA.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            🛸Software Engineer for {' '}
-            <Link
-              href="https://www.aerospacenu.com/nuav"
-              target="_blank"
-              color="gray.500"
-            >
-              AerospaceNU
-            </Link>{' '}
-             - computer vision.
+            Software Engineer for AerospaceNU - computer vision.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            📚Teaching assistant for NEU&apos;s Algorithms & OOD courses.
+            Teaching assistant for NEU&apos;s Algorithms & OOD courses.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🕹️Data Analyst for {' '}
-            <Link
-              href="https://mobalytics.gg/"
-              target="_blank"
-              color={'#7d6de3'}
-            >
-              Mobalytics
-            </Link>{' '}
-            - NLP for market strategies.
+            Data Analyst for{' '}
+            <span style={{ color: '#9063C7' }}>🕹️Mobalytics</span> - NLP for
+            market strategies.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            🖥️Software Specialist for {' '}
-            <Link
-              href="https://www.forgenu.com/home"
-              target="_blank"
-              color="orange"
-            >
-              Forge
-            </Link>{' '}
-            - NEU&apos;s product dev lab.
+            Software Specialist for{' '}
+            <span style={{ color: '#FF5722' }}>💡Forge</span> - NEU&apos;s product
+            dev lab.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            ❄️Software Engineer Co-Op at {' '}
-            <Link
-              href="https://www.snowflake.com/en/developers/solutions-center/aggregating-product-data-with-snowflake-cortex-notebooks/"
-              target="_blank"
-              color={'#00bbff'}
-            >
-              Snowflake
-            </Link>{' '}
-            - AI/ML solutions.
+            Software Engineer Intern at{' '}
+            <span style={{ color: '#79C3FF' }}>❄️Snowflake</span> - AI/ML
+            solutions.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            📦Software Development Engineer Intern at <span style={{ color: 'orange' }}>Amazon</span>!
+            Software Development Engineer Co-Op at{' '}
+            <span style={{ color: '#FF9900' }}>📦Amazon</span>!
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
-            🔍Seeking full-time job offers in software, AI and ML!
+            Seeking full-time job offers in software, AI and ML!
           </BioSection>
         </Section>
 
@@ -233,40 +189,37 @@ const Home = () => {
                 target="_blank"
                 colorScheme="teal"
               >
-                Tennis
-              </Link>
-              ,{' '}
+                Tennis🎾
+              </Link>{' '}
               <Link
                 href="/images/soccer.png"
                 target="_blank"
                 colorScheme="teal"
               >
-                Soccer
-              </Link>
-              ,{' '}
+                Soccer⚽
+              </Link>{' '}
               <Link
                 href="https://www.goodreads.com/book/show/15839976-red-rising"
                 target="_blank"
                 colorScheme="teal"
               >
-                Reading
-              </Link>
-              ,{' '}
+                Reading📖
+              </Link>{' '}
               <Link
                 href="/images/niagara.jpeg"
                 target="_blank"
                 colorScheme="teal"
               >
-                Photography
-              </Link>
-              , Drawing/Design, Gaming.
-              <br />
+                Photography📷
+              </Link>{' '}
+              <br></br>
+              Drawing/Design✏️ Gaming🎮 Traveling🗺️
             </Text>
           </Box>
           <Box align="center" my={4}>
             <Text>
-              You can read about more of my interests, blog posts and advice for
-              students, and reflections on my experiences by clicking below!
+              You can read about more of my interests and reflections on my
+              experiences in my occasional blog posts below!
             </Text>
           </Box>
           <Box align="center" my={4}>
