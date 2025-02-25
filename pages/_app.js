@@ -49,31 +49,56 @@ function Website({ Component, pageProps, router }) {
         // '#1F1F1F',
         // '#1A1A1A'
 
-        '#7A9DBD', // Slightly darker blue
-        '#79A8C0', // Slightly lighter blue
-        '#78A3C2', // Soft blue
-        '#77A0C4', // Light blue
-        '#769BC7', // Light pastel blue
-        '#7598C9', // Very soft blue
-        '#7495CB', // Soft pastel blue
-        '#7392CD', // Very light pastel blue
-        '#728FCE', // Light sky blue
-        '#718CCE', // Soft sky blue
-        '#7089D0', // Very soft sky blue
-        '#6F86D2', // Pastel sky blue
-        '#6E83D3', // Soft light blue
-        '#6D80D5', // Light blue
-        '#6C7DD7', // Light pastel blue
-        '#6B7AD9', // Soft light blue
-        '#6A77DB', // Very soft blue
-        '#6974DD', // Light pastel blue
-        '#6871DF', // Very light sky blue
-        '#6770E1', // Soft sky blue
-        '#666DEE', // Very light blue
-        '#656CFA', // Soft light blue
-        '#6469F8', // Light blue
-        '#6366F6', // Pastel blue
-        '#6263F4'  // Soft light blue
+        // '#7A9DBD', // Slightly darker blue
+        // '#79A8C0', // Slightly lighter blue
+        // '#78A3C2', // Soft blue
+        // '#77A0C4', // Light blue
+        // '#769BC7', // Light pastel blue
+        // '#7598C9', // Very soft blue
+        // '#7495CB', // Soft pastel blue
+        // '#7392CD', // Very light pastel blue
+        // '#728FCE', // Light sky blue
+        // '#718CCE', // Soft sky blue
+        // '#7089D0', // Very soft sky blue
+        // '#6F86D2', // Pastel sky blue
+        // '#6E83D3', // Soft light blue
+        // '#6D80D5', // Light blue
+        // '#6C7DD7', // Light pastel blue
+        // '#6B7AD9', // Soft light blue
+        // '#6A77DB', // Very soft blue
+        // '#6974DD', // Light pastel blue
+        // '#6871DF', // Very light sky blue
+        // '#6770E1', // Soft sky blue
+        // '#666DEE', // Very light blue
+        // '#656CFA', // Soft light blue
+        // '#6469F8', // Light blue
+        // '#6366F6', // Pastel blue
+        // '#6263F4'  // Soft light blue
+
+        '#4E7D99', // Darker blue
+        '#50799C', // Subtle transition blue
+        '#5284A0', // Soft blue
+        '#548FAA', // Lighter blue
+        '#5699B3', // Blue with a hint of lightness
+        '#58A3B6', // Soft light blue
+        '#5AACC0', // Light blue
+        '#5CAEC3', // Very light blue
+        '#5EA9C6', // Soft sky blue
+        '#60A4C9', // Light sky blue
+        '#62A0CC', // Blue with soft lightness
+        '#63A3D0', // Very light blue
+        '#65A6D3', // Light pastel blue
+        '#66A9D6', // Soft light blue
+        '#68ACD9', // Lighter blue
+        '#69AEDC', // Very soft light blue
+        '#6BA1DF', // Light sky blue
+        '#6CA4E2', // Soft light sky blue
+        '#6EA7E5', // Sky blue
+        '#6FAAE8', // Very soft sky blue
+        '#70AEEE', // Light blue
+        '#71B1F1', // Lighter blue
+        '#72B4F4', // Very light blue
+        '#73B7F7'  // Lightest blue
       ]
 
       circles.forEach((circle, index) => {
