@@ -75,30 +75,30 @@ function Website({ Component, pageProps, router }) {
         // '#6366F6', // Pastel blue
         // '#6263F4'  // Soft light blue
 
-        '#4E7D99', // Darker blue
-        '#50799C', // Subtle transition blue
-        '#5284A0', // Soft blue
-        '#548FAA', // Lighter blue
-        '#5699B3', // Blue with a hint of lightness
-        '#58A3B6', // Soft light blue
-        '#5AACC0', // Light blue
-        '#5CAEC3', // Very light blue
-        '#5EA9C6', // Soft sky blue
-        '#60A4C9', // Light sky blue
-        '#62A0CC', // Blue with soft lightness
-        '#63A3D0', // Very light blue
-        '#65A6D3', // Light pastel blue
-        '#66A9D6', // Soft light blue
-        '#68ACD9', // Lighter blue
-        '#69AEDC', // Very soft light blue
-        '#6BA1DF', // Light sky blue
-        '#6CA4E2', // Soft light sky blue
-        '#6EA7E5', // Sky blue
-        '#6FAAE8', // Very soft sky blue
-        '#70AEEE', // Light blue
-        '#71B1F1', // Lighter blue
-        '#72B4F4', // Very light blue
-        '#73B7F7'  // Lightest blue
+        '#4C89B0', // Lighter dark blue
+        '#4E8DB4', // Slightly lighter blue
+        '#508FB7', // Subtle transition blue
+        '#528FB9', // Soft blue
+        '#5492BC', // Light blue
+        '#5695BF', // Soft light blue
+        '#58A0C2', // Light blue
+        '#5A9BC5', // Very light blue
+        '#5C9EC8', // Soft sky blue
+        '#5E9FCB', // Lighter sky blue
+        '#60A2CE', // Light sky blue
+        '#62A5D1', // Soft light sky blue
+        '#63A8D3', // Lighter blue
+        '#65ABD6', // Soft light blue
+        '#66AED9', // Light sky blue
+        '#68B1DC', // Very soft light blue
+        '#69B4DF', // Soft light blue
+        '#6AB7E2', // Light blue
+        '#6BB9E5', // Very light blue
+        '#6DBCEF', // Soft blue
+        '#6EBDFF', // Light pastel blue
+        '#70BFFF', // Very light blue
+        '#71C2FF', // Lightest blue
+        '#72C5FF'  // Almost white light blue
       ]
 
       circles.forEach((circle, index) => {
