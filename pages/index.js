@@ -131,15 +131,19 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2017</BioYear>
-            Invited to attend the presidential inauguration in person.
+            Won my first official tennis tournament in New York! (USTA)
+          </BioSection>
+          <BioSection>
+            <BioYear>2017</BioYear>
+            Invited to attend the presidential inauguration in D.C.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Completed 3 years of ballboying at the U.S. Open.
+            Finished 3 years of ballboying the U.S. Open! (met Federer)
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Began attending 🏫Northeastern University in Boston, MA.
+            Began attending Northeastern University in Boston, MA.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
@@ -164,8 +168,7 @@ const Home = () => {
           <BioSection>
             <BioYear>2024</BioYear>
             Software Engineer Intern at{' '}
-            <span style={{ color: '#79C3FF' }}>❄️Snowflake</span> - AI/ML
-            solutions.
+            <span style={{ color: '#79C3FF' }}>❄️Snowflake</span> - AI/ML.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>

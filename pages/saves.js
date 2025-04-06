@@ -2,6 +2,7 @@ import { Container, Text, SimpleGrid, Flex } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const blogs = [
   { id: '1-13-25', title: 'Snowflake❄️', topic: 'Internship' }, 
@@ -12,10 +13,18 @@ const Blogs = () => (
   <Layout title="Save Files">
     <Container>
 
-      <Flex align="center" justify="center" mb={2}>
-        <Text as="h1" fontSize="4xl" mr={2} color={'blue.500'}>
+      {/* <Flex align="center" justify="center" mb={2}>
+        <Text as="h1" fontSize="4xl" mr={2} color={'blue.300'}>
           Save Files
         </Text>
+      </Flex> */}
+      <Flex align="center" justify="center" mb={6}>
+        <Image
+        src="/images/Website_banner.png"
+        alt="Banner"
+        width="2000"
+        height="500"
+        />
       </Flex>
       <SimpleGrid columns={1} gap={0}>
         {' '}
