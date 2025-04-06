@@ -101,7 +101,7 @@ const Home = () => {
             Northeastern University! I entered college with the intention of
             becoming an electrical/computer engineer but quickly fell in love
             with algorithms, AI, and machine learning along with their vast
-            applications to real world use cases. Recently, I was a Software
+            applications to real world use cases. Recently, I was a Machine Learning
             Engineer intern at Snowflake, and I&apos;m now an SDE co-op at
             Amazon!
           </Paragraph>
@@ -167,8 +167,8 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Software Engineer Intern at{' '}
-            <span style={{ color: '#79C3FF' }}>❄️Snowflake</span> - AI/ML.
+            Machine Learning Engineer Intern at{' '}
+            <span style={{ color: '#79C3FF' }}>❄️Snowflake</span>.
           </BioSection>
           <BioSection>
             <BioYear>Now</BioYear>
