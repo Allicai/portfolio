@@ -17,7 +17,13 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-// import { IoLogoGithub } from 'react-icons/io5'
+import {
+  IoLogoLinkedin,
+  IoLogoGithub,
+  IoSave,
+  IoHome,
+  IoLibrary
+} from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -77,20 +83,66 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/" path={path}>
+          <LinkItem
+            href="/"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoHome />
             Home
           </LinkItem>
-          <LinkItem href="/works" path={path}>
+          <LinkItem
+            href="/works"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLibrary />
             Projects
           </LinkItem>
-          
-          <LinkItem href="/saves" path={path}>
-            Save Files
+
+          <LinkItem
+            href="/saves"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoSave />
+            Saves
           </LinkItem>
-         {/* 
+        </Stack>
+
+        <Stack
+          direction={{ base: 'column', md: 'row' }}
+          display={{ base: 'none', md: 'flex' }}
+          width={{ base: 'full', md: 'auto' }}
+          alignItems="right"
+          flexGrow={1}
+          mt={{ base: 4, md: 0 }}
+        >
           <LinkItem
             target="_blank"
-            href="https://github.com/Allicai/portfolio"
+            href="https://www.linkedin.com/in/vinitp0310/"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoLinkedin />
+            LinkedIn
+          </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://github.com/Allicai"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -98,9 +150,8 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            GitHub
           </LinkItem>
-          */}
         </Stack>
 
         <Box flex={1} align="right">

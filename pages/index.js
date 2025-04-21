@@ -162,7 +162,7 @@ const Home = () => {
           <BioSection>
             <BioYear>2024</BioYear>
             Software Specialist for{' '}
-            <span style={{ color: '#FF5722' }}>💡Forge</span> - NEU&apos;s product
+            Forge - NEU&apos;s product
             dev lab.
           </BioSection>
           <BioSection>
