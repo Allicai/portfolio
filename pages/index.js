@@ -6,18 +6,18 @@ import {
   Box,
   // SimpleGrid,
   Button,
-  List,
-  ListItem,
+  // List,
+  // ListItem,
   Text,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoSave, IoLibrary, IoArrowUpCircle } from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -101,9 +101,9 @@ const Home = () => {
             Northeastern University! I entered college with the intention of
             becoming an electrical/computer engineer but quickly fell in love
             with algorithms, AI, and machine learning along with their vast
-            applications to real world use cases. Recently, I was a Machine Learning
-            Engineer intern at Snowflake, and I&apos;m now an SDE co-op at
-            Amazon!
+            applications to real world use cases. Recently, I was a Machine
+            Learning Engineer intern at Snowflake, and I&apos;m now an SDE co-op
+            at Amazon!
           </Paragraph>
           <Paragraph>
             In my free time I enjoy playing soccer and tennis, sketching at
@@ -117,7 +117,8 @@ const Home = () => {
               as={NextLink}
               href="/works"
               scroll={false}
-              rightIcon={<ChevronRightIcon />}
+              leftIcon={<IoLibrary />}
+              iconSpacing={1}
               colorScheme="blue"
             >
               Projects
@@ -161,9 +162,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Software Specialist for{' '}
-            Forge - NEU&apos;s product
-            dev lab.
+            Software Specialist for Forge - NEU&apos;s product dev lab.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
@@ -230,10 +229,11 @@ const Home = () => {
               as={NextLink}
               href="/saves"
               scroll={false}
-              rightIcon={<ChevronRightIcon />}
+              leftIcon={<IoSave />}
+              iconSpacing={1}
               colorScheme="blue"
             >
-              Save Files
+              Saves
             </Button>
           </Box>
         </Section>
@@ -260,86 +260,16 @@ const Home = () => {
           </Box>
         </Section>
 
-        <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
-            My Links
-          </Heading>
-          <List>
-            <ListItem>
-              <Link href="https://github.com/Allicai" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="blue"
-                  leftIcon={<IoLogoGithub />}
-                >
-                  Allicai
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link
-                href="https://www.linkedin.com/in/vinit-patel-873514204/"
-                target="_blank"
-              >
-                <Button
-                  variant="ghost"
-                  colorScheme={'blue'}
-                  leftIcon={<IoLogoLinkedin />}
-                >
-                  Vinit Patel
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="mailto:vinitp0310@gmail.com" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="blue"
-                  leftIcon={<EmailIcon />}
-                >
-                  vinitp0310@gmail.com
-                </Button>
-              </Link>
-            </ListItem>
-          </List>
-
-          {/*<SimpleGrid columns={[1, 2, 2]} gap={6}>
-            <GridItem
-              href="https://www.youtube.com/devaslife"
-              title="Dev as Life"
-              thumbnail={thumbYouTube}
-            >
-              My YouTube channel (&gt;200k subs)
-            </GridItem>
-            <GridItem
-              href="https://www.inkdrop.app/"
-              title="Inkdrop"
-              thumbnail={thumbInkdrop}
-            >
-              A Markdown note-taking app
-            </GridItem>
-          </SimpleGrid>
-
-          <Heading as="h3" variant="section-title">
-            Newsletter
-          </Heading>
-          <p>
-            Join me on a behind-the-scenes coding journey. Weekly updates on
-            projects, tutorials, and videos
-          </p>
-
-          <Box align="center" my={4}>
-            <Button
-              as={NextLink}
-              href="https://www.devas.life/"
-              scroll={false}
-              leftIcon={<EmailIcon />}
-              colorScheme="teal"
-            >
-              Sign up my newsletter here
-            </Button>
-          </Box> */}
-        </Section>
+        <Box align="center" my={6}>
+          <Button
+            colorScheme="blue"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            leftIcon={<IoArrowUpCircle />}
+            iconSpacing={1}
+          >
+            Back to Top
+          </Button>
+        </Box>
       </Container>
     </Layout>
   )
