@@ -5,8 +5,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const blogs = [
-  { id: '1-13-25', title: 'Resumes and Resilience', topic: 'Reflections' },
-  { id: '12-11-24', title: 'Try', topic: 'Yapping' }
+  { id: '1-13-25', title: 'Resumes and Resilience', topic: 'Advice' },
+  { id: '12-11-24', title: 'Try', topic: 'Reflection' }
 ]
 
 const Blogs = () => (
