@@ -97,15 +97,16 @@ const BlogPost = () => {
           Getting involved on campus builds your skills, but internships are
           where you really start to bridge the gap between school and industry.
           The hard part is getting that first one when your resume still feels
-          "empty." Here's the good news: externships, research assistant roles,
-          even freelance projects — they all count. What matters is showing that
-          you can take what you’re learning and apply it to something real.
+          empty. Here&apos;s the good news: externships, research assistant
+          roles, even freelance projects — they all count. What matters is
+          showing that you can take what you’re learning and apply it to
+          something real.
         </Text>
 
         <Text fontSize="md" mb={4}>
-          My advice? Don’t wait for the "perfect" role. Apply early. Apply wide.
-          Apply to places you’ve never even heard of. Smaller companies,
-          startups, even unpaid roles (if you're able to take them) can be
+          My advice? Don’t wait for the &quot;perfect&quot; role. Apply early.
+          Apply wide. Apply to places you’ve never even heard of. Smaller
+          companies, startups, even unpaid roles (if you&apos;re willing) can be
           stepping stones. That said, if getting an internship was as easy as
           applying, I wouldn&apos;t be writing this blog. So let&apos;s go back
           to that resume. Now that you have some more experience, it&apos;s time
