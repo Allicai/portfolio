@@ -18,6 +18,8 @@
     "@chakra-ui/system": "^2.6.2",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
+    "@mdi/js": "^7.4.47",
+    "@mdi/react": "^1.6.1",
     "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.18.0",
     "next": "^14.2.9",

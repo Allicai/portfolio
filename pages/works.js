@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbML from '../public/images/works/distilbert.png'
-import thumbChorely from '../public/images/works/chorely.jpg'
+import thumbMM from '../public/images/works/marketmind.jpg'
 // import thumbSnake from '../public/images/works/snake.png'
 import thumbStark from '../public/images/works/vini_stark.png'
 import thumbRPS from '../public/images/works/rps.png'
@@ -25,16 +25,15 @@ const Works = () => (
             title="NLP Model Evaluation"
             thumbnail={thumbML}
           >
-            Comparing Logistic Regression, LSTM, and DistilBERT transformer
-            models on a sentiment analysis classification task based around a
-            Kaggle dataset.
+            Comparing and benchmarking Logistic Regression, LSTM, and DistilBERT
+            transformer models on a classification task.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="hsr" title="Optimized HS Rail" thumbnail={thumbHSR}>
-            Introducing and optimizing high speed rail systems in the United
-            States based on emissions, cost, and passengers served.
+            Algorithm to optimize high speed rail in the U.S. based on
+            emissions, cost, passengers served, etc.
           </WorkGridItem>
         </Section>
 
@@ -44,8 +43,7 @@ const Works = () => (
             title="Collage Image Processor"
             thumbnail={thumbCollage}
           >
-            Image processing software in Java with features such as cropping,
-            filtering, layer creation and management, etc.
+            Image processing software with cropping, filtering, layers, etc.
           </WorkGridItem>
         </Section>
 
@@ -55,23 +53,20 @@ const Works = () => (
             title="CV Rock-Paper-Scissors"
             thumbnail={thumbRPS}
           >
-            Rock-paper-scissors using OpenCV, with a &quot;cheat mode&quot;
-            where the computer waits momentarily to choose the winning hand.
+            Rock-paper-scissors using OpenCV.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="stark" title="Vinny Stark" thumbnail={thumbStark}>
-            [CURRENTLY IN PROGRESS] <br /> Set of scripts using cv2 and
-            pyautogui to get me one step closer to being Tony Stark by enabling
-            me to control my computer via gestures.
+            [IN DEVELOPMENT] <br /> Using computer vision to become Tony Stark
+            by enabling gesture control of my desktop.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="chorely" title="Chorely" thumbnail={thumbChorely}>
-            [CURRENTLY IN PROGRESS] <br /> Mobile app that gamifies chores for
-            roommates to encourage productivity and communication!
+          <WorkGridItem id="marketmind" title="MarketMind" thumbnail={thumbMM}>
+            [IN DEVELOPMENT] <br /> Agentic AI for the stock market...
           </WorkGridItem>
         </Section>
       </SimpleGrid>

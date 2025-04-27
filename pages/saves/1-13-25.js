@@ -98,19 +98,9 @@ const BlogPost = () => {
           where you really start to bridge the gap between school and industry.
           The hard part is getting that first one when your resume still feels
           empty. Here&apos;s the good news: externships, research assistant
-          roles, even freelance projects — they all count. What matters is
-          showing that you can take what you’re learning and apply it to
-          something real.
-        </Text>
-
-        <Text fontSize="md" mb={4}>
-          My advice? Don’t wait for the &quot;perfect&quot; role. Apply early.
-          Apply wide. Apply to places you’ve never even heard of. Smaller
-          companies, startups, even unpaid roles (if you&apos;re willing) can be
-          stepping stones. That said, if getting an internship was as easy as
-          applying, I wouldn&apos;t be writing this blog. So let&apos;s go back
-          to that resume. Now that you have some more experience, it&apos;s time
-          to make it shine. And that&apos;s where the first roadblock comes in.
+          roles, even freelance projects — they all count. And now that you have
+          some of these experiences, it&apos;s time to make them shine. And
+          that&apos;s where the first roadblock comes in.
         </Text>
         <Text fontSize="lg" color="red.300" display="inline">
           The ATS System
@@ -145,9 +135,9 @@ const BlogPost = () => {
             Jake&apos;s Resume
           </Link>{' '}
           . Simply download the template, fill in your info, and you&apos;ll
-          already have a solid base. It&apos;s simple, clean, and ATS-friendly —
-          I use it to this day. From there, you can focus on wording, layout,
-          and making it your own. I recommend using{' '}
+          already have a solid base. It&apos;s simple, clean, and ATS-friendly.
+          From there, you can focus on wording, layout, and making it your own.
+          I recommend using{' '}
           <Link
             href="https://www.techinterviewhandbook.org/resume/"
             target="blank"
@@ -163,8 +153,8 @@ const BlogPost = () => {
           >
             resumes.fyi
           </Link>{' '}
-          for inspiration on wording (though you may also notice the template
-          many of the resumes on there have in common).
+          for inspiration on wording, and notice what template a lot of those
+          resumes use ;)
         </Text>
 
         <Text fontSize="md" mb={4}>

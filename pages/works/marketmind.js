@@ -13,21 +13,17 @@ import {
   // import P from '../../components/paragraph'
   
   const Projects = () => (
-    <Layout title="Chorely">
+    <Layout title="Market Mind">
       <Container>
         <Title>
-          Chorely {' '}
-          <Badge>Mobile App</Badge> {' '}
-          <Badge>Full Stack</Badge>
+          Market Mind {' '}
+          <Badge>Agentic AI</Badge> {' '}
+          <Badge>FinTech</Badge>
         </Title>
         <Center my={6}>
         <Image src="/images/works/vin_cook.png" alt="banner" boxSize = "200px" />
       </Center>
         <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Skills</Meta>
-            <span>JavaScript (TypeScript), React Native, Firebase</span>
-          </ListItem>
           <ListItem>
             <Meta>Progress</Meta>
             <span>In Progress</span>

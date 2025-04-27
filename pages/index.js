@@ -21,6 +21,9 @@ import { IoSave, IoLibrary, IoArrowUpCircle } from 'react-icons/io5'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
+import PokemonCard from '../components/pokemoncard.jsx'
+import Icon from '@mdi/react'
+import { mdiPokeball } from '@mdi/js'
 // import Script from 'next/script'
 
 const rotatingTexts = [
@@ -97,19 +100,18 @@ const Home = () => {
           <Paragraph>
             I&apos;m a dynamic software engineer/computer scientist pursuing a
             Bachelor of Science in Computer Science concentrated in AI and ML at
-            Northeastern University! I entered college with the intention of
-            becoming an electrical/computer engineer but quickly fell in love
-            with algorithms, AI, and machine learning along with their vast
-            applications to real world use cases. Recently, I was a Machine
-            Learning Engineer intern at Snowflake, and I&apos;m now an SDE co-op
-            at Amazon!
+            Northeastern University! Recently, I interned as a Software Engineer
+            at Snowflake, where I worked on AI and machine learning. Currently,
+            I&apos;m an SDE co-op at Amazon and a researcher at NEU!
           </Paragraph>
+          <br></br>
           <Paragraph>
             In my free time I enjoy playing soccer and tennis, sketching at
             local cafés, and exploring Boston with friends! I&apos;m always
-            looking for new opportunities to learn; my current focus is to grow
-            personally and professionally as I begin to aim for full-time
-            positions. I&apos;m excited to see where my journey takes me!
+            interested in creating new things, whether it&apos;s through code or
+            art. You can check out some of my software projects below, and if
+            you&apos;re working on something interesting, I&apos;d love to hear
+            about it!{' '}
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -131,7 +133,7 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2017</BioYear>
-            Won my first official tennis tournament in New York! (USTA)
+            Won my first official L1 USTA tennis tournament!
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
@@ -156,12 +158,8 @@ const Home = () => {
           <BioSection>
             <BioYear>2024</BioYear>
             Data Analyst for{' '}
-            <span style={{ color: '#9063C7' }}>🕹️Mobalytics</span> - NLP for
+            <span style={{ color: '#9063C7' }}>🕹️Mobalytics</span> - NLP and
             market strategies.
-          </BioSection>
-          <BioSection>
-            <BioYear>2024</BioYear>
-            Software Specialist for Forge - NEU&apos;s product dev lab.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
@@ -172,10 +170,6 @@ const Home = () => {
             <BioYear>Now</BioYear>
             Software Development Engineer Co-Op at{' '}
             <span style={{ color: '#FF9900' }}>📦Amazon</span>!
-          </BioSection>
-          <BioSection>
-            <BioYear>Now</BioYear>
-            Seeking full-time job offers in software, AI and ML!
           </BioSection>
         </Section>
 
@@ -239,7 +233,7 @@ const Home = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Now Playing 📻:
+          📻 Now Playing:
           </Heading>
           <Box
             borderRadius="12px"
@@ -249,7 +243,7 @@ const Home = () => {
           >
             <iframe
               style={{ borderRadius: '12px' }}
-              src="https://open.spotify.com/embed/track/2LwsunYgfRoqyIsNtgOCQx?utm_source=generator"
+              src="https://open.spotify.com/embed/track/7FbULqbni8CxToPAs2otk5?utm_source=generator"
               width="100%"
               height="152"
               allowFullScreen=""
@@ -259,7 +253,40 @@ const Home = () => {
           </Box>
         </Section>
 
-        <Box align="center" my={6}>
+        <Section delay={0.3}>
+          <Heading
+            as="h3"
+            variant="section-title"
+            display="flex"
+            alignItems="center"
+          >
+            <span
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                position: 'relative'
+              }}
+            >
+              <Icon path={mdiPokeball} size={1} style={{ marginRight: '8px' }} />
+              My Pokémon:{' '}
+              <span
+                style={{
+                  position: 'absolute',
+                  bottom: '-6px',
+                  left: 0,
+                  right: 0,
+                  height: '5px',
+                  backgroundColor: 'grey'
+                }}
+              />
+            </span>
+          </Heading>
+          <Box align="center" my={1} mb={0}>
+            <PokemonCard />
+          </Box>
+        </Section>
+
+        <Box align="center" my={2} mb={2}>
           <Button
             colorScheme="blue"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
