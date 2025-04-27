@@ -96,8 +96,6 @@ export default function PokemonCard() {
         />
         {/* Custom editable area with white font and slightly darker background */}
         <div
-          contentEditable
-          suppressContentEditableWarning
           style={{
             backgroundColor: '#aab7d4', // Slightly darker background to mimic textarea
             color: 'white', // Set text color to white
