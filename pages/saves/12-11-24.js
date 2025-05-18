@@ -16,7 +16,7 @@ const BlogPost = () => {
         </Heading>
 
         <Text fontSize="lg" color="gray.400" mb={6}>
-          October 26, 2024
+          December 11, 2024
         </Text>
 
         <Text fontSize="md" mb={4}>
