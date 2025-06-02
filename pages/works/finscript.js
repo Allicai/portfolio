@@ -45,41 +45,30 @@ const Projects = () => (
       </List>
       <P>
         FinScript is a work-in-progress platform designed to help individual
-        investors stay informed and adapt their financial strategies based on
-        real-time macroeconomic events and market-moving news.
+        investors keep up with fast-moving market news and understand how major
+        events like rate hikes or earnings surprises might affect their
+        investment strategy.
       </P>
 
       <P>
-        Users receive event-driven insights extracted from news sources like
-        Yahoo Finance and investor bulletins, enriched using transformer-based
-        NLP models such as FinBERT and DistilBERT. The platform surfaces
-        relevant financial events—like interest rate changes, earnings
-        surprises, or geopolitical risks and connects them to potential
-        investment or savings strategy shifts.
+        The platform uses transformer-based NLP models like FinBERT and
+        DistilBERT to extract insights from financial news, investor bulletins,
+        and macroeconomic updates. These models classify key events and
+        sentiment, and suggest strategic takeaways based on historical patterns.
       </P>
 
       <P>
-        The backend architecture leverages an AWS-based ingestion pipeline,
-        including Lambda for task automation and CloudWatch for scheduling, with
-        user-provided credentials allowing compliant data access from premium
-        financial sites. Cleaned and structured data is stored in Snowflake for
-        downstream querying and feature construction.
+        Under the hood, an AWS-powered data pipeline pulls news from sources
+        like Yahoo Finance using custom ingestion tools. Tasks run on AWS Lambda
+        and are scheduled using CloudWatch, with cleaned data stored in
+        Snowflake for easy querying and feature engineering.
       </P>
 
       <P>
-        A FastAPI microservice routes input through fine-tuned LLMs to classify
-        sentiment and event type, then generates suggested strategic actions
-        based on historical financial context. Intermediate metadata, user
-        preferences, and caching are handled via DynamoDB for real-time
-        performance and scalability.
-      </P>
-
-      <P>
-        I originally wanted to just ideate on something I thought would be
-        useful and how I would develop a demo and product, but it ended up
-        becoming a full-fledged project that I&apos;ve begun developing. Below
-        is a little easter egg of a whiteboard sketch I made to visualize the
-        architecture and data flow of the system.
+        A FastAPI backend routes inputs through the NLP models and returns
+        strategy suggestions. Metadata, intermediate outputs, and user filters
+        are stored in S3 to keep things simple, scalable, and low-cost as I
+        prototype.
       </P>
 
       <Center my={6}>
@@ -89,6 +78,17 @@ const Projects = () => (
           boxSize="400px"
         />
       </Center>
+      <P>
+        I originally started brainstorming FinScript after conversations with a
+        few friends I made with experience in quantitative finance (mainly Finn
+        Hulse and Diego Lopez). Based on their descriptions of the work being
+        done at these firms, I wanted to explore how NLP models could surface
+        relevant macro and market events that busy interns or analysts might not
+        have time to dig into. What started as a fun ideation exercise quickly
+        turned into a project that captured my interest and began developing.
+        Above is a little easter egg: the whiteboard sketch I made on day one to
+        map out the system’s architecture and data flow.
+      </P>
     </Container>
   </Layout>
 )
